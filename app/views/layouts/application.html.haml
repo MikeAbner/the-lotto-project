@@ -1,0 +1,11 @@
+%html
+  %head
+    %title The Lotto Project
+            
+    = stylesheet_link_tag :all
+    = javascript_include_tag :all
+  %body
+    .container_16.main-container
+      .grid_16.content.rounded-corners
+        = render :partial => "common/titlebar"
+        = yield

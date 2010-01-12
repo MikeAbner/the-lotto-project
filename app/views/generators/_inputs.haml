@@ -1,0 +1,6 @@
+%p
+  %b State:
+  = collection_select(:user, :state_id, State.all, :id, :name, {:include_blank => true})
+%p
+  %b Game:
+  = collection_select(:game, :game_id, Game.all, :id, :name, {:include_blank => true})

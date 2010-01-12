@@ -1,0 +1,2 @@
+class Analyzers::MegaMillionsAnalyzer 
+end
