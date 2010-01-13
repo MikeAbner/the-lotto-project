@@ -32,8 +32,7 @@ class Generators::SuperGenerator
       snumbers << num
     end
     snumbers.sort!
-    numbers.concat snumbers
     
-    numbers
+    {:numbers => numbers, :super_numbers => snumbers}
   end
 end

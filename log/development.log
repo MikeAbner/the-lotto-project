@@ -6960,3 +6960,4481 @@ Rendering welcome/index
 Rendered generators/_inputs (35.9ms)
 Rendered common/_titlebar (0.3ms)
 Completed in 127ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:34:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (33.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 44ms (View: 43, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:34:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (100.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 107ms (View: 105, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:35:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (33.2ms)
+Rendered common/_titlebar (1.6ms)
+Completed in 45ms (View: 43, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:35:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (31.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:35:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (36.0ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 44ms (View: 42, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:35:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (31.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 39ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:35:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (113.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 126ms (View: 124, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:36:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (39.8ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 49ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:37:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (54.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 67ms (View: 64, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:45:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-12 14:45:36) [GET]
+
+ActionController::RoutingError (No route matches "/games/index/6" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:46:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:46:10) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering games/index
+Rendered common/_titlebar (0.4ms)
+Completed in 53ms (View: 10, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:46:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:46:31) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:46:33) [GET]
+  Parameters: {"id"=>"8"}
+Rendering games/index
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/8]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:47:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:47:05) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:47:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:47:31) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:47:35) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 105ms (View: 73, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:48:29) [GET]
+  Parameters: {"id"=>"14"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/14]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:49:12) [GET]
+  Parameters: {"id"=>"15"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/15]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:51:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:51:32) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 107ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:52:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-12 14:52:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/generate_numbers_btn.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:52:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.8ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-12 14:52:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/images/generate_numbers_btn.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:52:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:53:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:53:51) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:53:56) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:55:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (15.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:55:15) [GET]
+  Parameters: {"id"=>"9"}
+Rendering games/index
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/9]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 14:55:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 14:55:54) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:01:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:01:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:01:08) [GET]
+  Parameters: {"id"=>"7"}
+Rendering games/index
+Completed in 33ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/7]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:01:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (14.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:01:35) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:01:49) [GET]
+  Parameters: {"id"=>"14"}
+Rendering template within layouts/application
+Rendering generators/show
+Rendered common/_titlebar (0.3ms)
+Completed in 47ms (View: 13, DB: 0) | 200 OK [http://localhost/generators/show/14]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:02:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:02:12) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:02:16) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 52ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/16]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:03:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (14.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:03:07) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:03:09) [GET]
+  Parameters: {"id"=>"10"}
+Rendering generators/show
+Completed in 103ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/10]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:03:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:03:38) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:03:40) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 34ms (View: 6, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:05:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:05:39) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:05:41) [GET]
+  Parameters: {"id"=>"13"}
+Rendering generators/show
+
+ActionView::TemplateError (undefined local variable or method `x' for #<ActionView::Base:0x1033f44a0>) on line #3 of app/views/generators/show.html.haml:
+1: %h1
+2:   - nums = ""
+3:   - @numbers.each {|n| nums << "#{x} -"}
+4:   = nums
+
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    app/views/generators/show.html.haml:3:in `each'
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:5:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (122.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:05:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:05:57) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:05:59) [GET]
+  Parameters: {"id"=>"15"}
+Rendering generators/show
+Completed in 108ms (View: 79, DB: 0) | 200 OK [http://localhost/generators/show/15]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:06:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:06:12) [GET]
+  Parameters: {"id"=>"8"}
+Rendering games/index
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/8]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:06:14) [GET]
+  Parameters: {"id"=>"28"}
+Rendering generators/show
+Completed in 33ms (View: 6, DB: 0) | 200 OK [http://localhost/generators/show/28]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:06:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:06:34) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:06:36) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:06:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.7ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:06:45) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 103ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:06:47) [GET]
+  Parameters: {"id"=>"10"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/10]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:06:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:06:55) [GET]
+  Parameters: {"id"=>"7"}
+Rendering games/index
+Completed in 41ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:06:57) [GET]
+  Parameters: {"id"=>"24"}
+Rendering generators/show
+Completed in 102ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/24]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:07:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:07:12) [GET]
+  Parameters: {"id"=>"12"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/12]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:07:14) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/4]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:07:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:07:52) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 43ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:07:53) [GET]
+  Parameters: {"id"=>"5"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:07:54) [GET]
+  Parameters: {"id"=>"5"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:07:55) [GET]
+  Parameters: {"id"=>"5"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/5]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:08:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:08:19) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:08:21) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/16]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:08:22) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/16]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:08:23) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/16]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:08:25) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:08:29) [GET]
+  Parameters: {"id"=>"13"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/13]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:17:54) [GET]
+  Parameters: {"id"=>"13"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/13]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:17:58) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:18:00) [GET]
+  Parameters: {"id"=>"102"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/102]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:18:03) [GET]
+  Parameters: {"id"=>"105"}
+Rendering generators/show
+Completed in 134ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/105]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:18:06) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:26:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:04) [GET]
+  Parameters: {"id"=>"17"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/17]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:07) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 105ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:26:10) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:26:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:24) [GET]
+  Parameters: {"id"=>"31"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/31]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:25) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 99ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:26:29) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:26:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:42) [GET]
+  Parameters: {"id"=>"17"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/17]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:26:44) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 126ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:26:46) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:27:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (13.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:27:13) [GET]
+  Parameters: {"id"=>"19"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/19]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:27:15) [GET]
+  Parameters: {"id"=>"71"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/71]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:27:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:27:33) [GET]
+  Parameters: {"id"=>"18"}
+Rendering games/index
+Completed in 36ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/18]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:27:35) [GET]
+  Parameters: {"id"=>"68"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/68]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:27:39) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 109ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:27:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:27:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (17.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:27:54) [GET]
+  Parameters: {"id"=>"28"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/28]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:27:59) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:28:02) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:28:06) [GET]
+  Parameters: {"id"=>"104"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/104]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:28:10) [GET]
+  Parameters: {"id"=>"102"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/102]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:28:24) [GET]
+  Parameters: {"id"=>"105"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/105]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:28:27) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:28:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (undefined local variable or method `style' for #<ActionView::Base:0x1032e7cd8>) on line #2 of app/views/generators/_inputs.haml:
+1: :javascript
+2:   $(document).ready(function() {
+3:     $("#state_state_id").change(function() {
+4:       $("#numbers").hide();
+5:       state_id = $("#state_state_id :selected").val();
+
+    app/views/generators/_inputs.haml:2:in `_run_haml_app47views47generators47_inputs46haml_locals_inputs_object'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.12) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/welcome/index.html.haml:18:in `_run_haml_app47views47welcome47index46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (134.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 101ms (View: 100, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (15.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.7ms)
+Rendered common/_titlebar (0.8ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:29:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (17.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:30:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 100ms (View: 97, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:30:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:30:37) [GET]
+  Parameters: {"id"=>"25"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/25]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:30:40) [GET]
+  Parameters: {"id"=>"87"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/87]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:30:44) [GET]
+  Parameters: {"id"=>"90"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/90]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:30:45) [GET]
+  Parameters: {"id"=>"90"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/90]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:30:46) [GET]
+  Parameters: {"id"=>"90"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/90]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:31:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 25ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:31:28) [GET]
+  Parameters: {"id"=>"21"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/21]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:31:31) [GET]
+  Parameters: {"id"=>"77"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/77]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:31:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.7ms)
+Rendered common/_titlebar (0.7ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:31:49) [GET]
+  Parameters: {"id"=>"22"}
+Rendering games/index
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/22]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:31:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:31:59) [GET]
+  Parameters: {"id"=>"24"}
+Rendering games/index
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/24]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:32:01) [GET]
+  Parameters: {"id"=>"26"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/26]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:32:04) [GET]
+  Parameters: {"id"=>"3"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/3]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:32:07) [GET]
+  Parameters: {"id"=>"3"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/3]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:32:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.4ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:32:37) [GET]
+  Parameters: {"id"=>"35"}
+Rendering games/index
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/35]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:33:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (90.4ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 100ms (View: 98, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:33:02) [GET]
+  Parameters: {"id"=>"22"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/22]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:35:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:35:51) [GET]
+  Parameters: {"id"=>"21"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/21]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:36:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 100ms (View: 99, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:36:20) [GET]
+  Parameters: {"id"=>"24"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/24]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:39:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:39:46) [GET]
+  Parameters: {"id"=>"25"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/25]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:40:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:40:46) [GET]
+  Parameters: {"id"=>"23"}
+Rendering games/index
+Completed in 46ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/23]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:43:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:43:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:43:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:43:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:44:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:44:10) [GET]
+  Parameters: {"id"=>"26"}
+Rendering games/index
+Completed in 103ms (View: 71, DB: 0) | 200 OK [http://localhost/games/index/26]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:44:33) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/4]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:45:13) [GET]
+  Parameters: {"id"=>"25"}
+Rendering games/index
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/25]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:45:16) [GET]
+  Parameters: {"id"=>"89"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/89]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:45:22) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 108ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:45:24) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:45:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:45:40) [GET]
+  Parameters: {"id"=>"30"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/30]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:45:42) [GET]
+  Parameters: {"id"=>"98"}
+Rendering generators/show
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/98]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:45:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:45:56) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:45:59) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 15:46:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:46:06) [GET]
+  Parameters: {"id"=>"22"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/22]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 15:46:07) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 15:46:09) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:46:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:46:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:46:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 15:46:44) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/32]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 15:46:48) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/108]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:54:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:54:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:54:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:54:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:55:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.) on line #25 of app/views/welcome/index.html.haml:
+22:   .header
+23:     .title{:style => "float: none;"}
+24:       %h2 Features on the way!
+25:             %br{:style => "clear:both;"}
+26:   .feature.rounded-corners
+27:     .header
+28:       .title{:style => "float: none;"}
+
+    app/views/welcome/index.html.haml:25
+    haml (2.2.12) lib/haml/precompiler.rb:734:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:55:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:56:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:56:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:56:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:56:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 92ms (View: 90, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:56:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:57:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:59:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 15:59:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:00:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:00:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:01:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:01:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:03:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:03:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:04:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:05:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:06:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:06:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.4ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:06:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 77ms (View: 76, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:06:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:08:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:08:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:08:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:08:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered common/_titlebar (0.3ms)
+Completed in 79ms (View: 77, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:09:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:09:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:10:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:11:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:11:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:11:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:12:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:13:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:14:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:14:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:14:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:15:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:15:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 87ms (View: 85, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:15:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:15:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:17:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:18:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 91ms (View: 22, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:19:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:20:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:20:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:20:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:20:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:20:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:21:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:21:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:21:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:21:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:22:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:22:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:22:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:22:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:22:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:23:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:23:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:23:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:23:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:23:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:24:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:24:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:24:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 84ms (View: 83, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:24:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:24:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:24:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:25:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 89ms (View: 87, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:25:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:25:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:26:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:26:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:26:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:26:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:26:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:26:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 98ms (View: 97, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:26:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:27:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:27:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:27:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 102ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 16:27:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:28:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:28:20) [GET]
+  Parameters: {"id"=>"29"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/29]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:22) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:23) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:24) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:25) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:26) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 47ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:28:26) [GET]
+  Parameters: {"id"=>"7"}
+Rendering generators/show
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/7]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 16:28:29) [GET]
+  Parameters: {"id"=>"24"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/24]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 16:28:32) [GET]
+  Parameters: {"id"=>"41"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/41]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:28:34) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/4]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:28:36) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/4]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:28:37) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/4]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:28:37) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/4]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:28:38) [GET]
+  Parameters: {"id"=>"4"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/4]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:28:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.12 at 2010-01-12 16:29:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:29:18) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/5]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:22) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:31) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:32) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:33) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 99ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:34) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:35) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:35) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:35) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:35) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:29:36) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:29:38) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing GamesController#show (for 192.168.1.12 at 2010-01-12 16:30:01) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index):
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:30:35) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/5]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:30:41) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:30:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.4ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.12 at 2010-01-12 16:31:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:31:15) [GET]
+  Parameters: {"id"=>"7"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/7]
+
+
+Processing WelcomeController#index (for 192.168.1.12 at 2010-01-12 16:31:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:31:18) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:31:21) [GET]
+  Parameters: {"id"=>"15"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/15]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:31:21) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 43ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/4]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:31:22) [GET]
+  Parameters: {"id"=>"15"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/15]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:31:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.12 at 2010-01-12 16:31:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:31:27) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:31:34) [GET]
+  Parameters: {"id"=>"12"}
+Rendering games/index
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/12]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:31:39) [GET]
+  Parameters: {"id"=>"3"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/3]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:31:44) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:31:49) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/5]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:31:54) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/16]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:31:57) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 96ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:31:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.6ms)
+Rendered common/_titlebar (2.4ms)
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:32:01) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:32:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:05) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:32:05) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:06) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:06) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:07) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:07) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:08) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:09) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:10) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 124ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:10) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:32:10) [GET]
+  Parameters: {"id"=>"17"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/17]
+
+
+Processing WelcomeController#index (for 192.168.1.12 at 2010-01-12 16:32:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:32:34) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/3]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:32:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:32:45) [GET]
+  Parameters: {"id"=>"10"}
+Rendering games/index
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/10]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:32:48) [GET]
+  Parameters: {"id"=>"6"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/6]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:32:55) [GET]
+  Parameters: {"id"=>"52"}
+Rendering games/index
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/52]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:32:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.2ms)
+Rendered common/_titlebar (0.8ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:32:58) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:32:59) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+
+ActionView::TemplateError (undefined local variable or method `games' for #<ActionView::Base:0x10338fbb8>) on line #1 of app/views/games/index.html.haml:
+1: - if games.size == 0
+2:   No lottos in this state
+3: - else
+4:   = collection_select(:game, :game_id, @games, :id, :name, {:include_blank => true})
+
+    app/views/games/index.html.haml:1:in `_run_haml_app47views47games47index46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/games_controller.rb:4:in `index'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (128.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:33:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:33:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 40ms (View: 5, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:33:31) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 103ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:33:42) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/6]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 16:33:46) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 16:33:50) [GET]
+  Parameters: {"id"=>"undefined"}
+
+NoMethodError (undefined method `generator' for nil:NilClass):
+  app/controllers/generators_controller.rb:4:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (112.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:33:51) [GET]
+  Parameters: {"id"=>"33"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/33]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:34:08) [GET]
+  Parameters: {"id"=>"46"}
+Rendering games/index
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/46]
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:34:19) [GET]
+  Parameters: {"id"=>"33"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/33]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:34:22) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:35:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:35:46) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:35:47) [GET]
+  Parameters: {"id"=>"undefined"}
+
+NoMethodError (undefined method `generator' for nil:NilClass):
+  app/controllers/generators_controller.rb:5:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (106.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:36:08) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:36:09) [GET]
+  Parameters: {"id"=>"undefined"}
+
+NoMethodError (undefined method `generator' for nil:NilClass):
+  app/controllers/generators_controller.rb:6:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (115.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:36:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (0.7ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:36:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:36:31) [GET]
+  Parameters: {"id"=>"undefined"}
+
+NoMethodError (undefined method `generator' for nil:NilClass):
+  app/controllers/generators_controller.rb:6:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (110.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:36:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:36:51) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:36:52) [GET]
+  Parameters: {"id"=>"undefined"}
+
+NoMethodError (undefined method `generator' for nil:NilClass):
+  app/controllers/generators_controller.rb:5:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (138.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:37:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:37:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:37:15) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/generators/show.html.haml:
+1: %h3
+2:   - nums = ""
+3:   - @numbers.each {|n| nums << "#{n} - "}
+4:   = nums.chop.chop.chop
+
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:7:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (129.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:37:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:37:42) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:37:43) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/generators/show.html.haml:
+1: %h3
+2:   - nums = ""
+3:   - @numbers.each {|n| nums << "#{n} - "}
+4:   = nums.chop.chop.chop
+
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:7:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (121.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:38:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:38:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:38:16) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/generators/show.html.haml:
+1: %h3
+2:   - nums = ""
+3:   - @numbers.each {|n| nums << "#{n} - "}
+4:   = nums.chop.chop.chop
+
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:10:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (123.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 192.168.1.12 at 2010-01-12 16:38:30) [GET]
+  Parameters: {"id"=>"34"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/34]
+
+
+Processing GeneratorsController#show (for 192.168.1.12 at 2010-01-12 16:38:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:39:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 98ms (View: 96, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:39:13) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:39:14) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/generators/show.html.haml:
+1: %h3
+2:   - nums = ""
+3:   - @numbers.each {|n| nums << "#{n} - "}
+4:   = nums.chop.chop.chop
+
+    app/views/generators/show.html.haml:3:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:7:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (124.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:39:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:40:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:01) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:02) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 104ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:03) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:03) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 31ms (View: 2, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:04) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:40:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:07) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/undefined]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:40:09) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:12) [GET]
+  Parameters: {"id"=>"16"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/16]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 16:40:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 16:40:38) [GET]
+  Parameters: {"id"=>"8"}
+Rendering games/index
+Completed in 127ms (View: 95, DB: 0) | 200 OK [http://localhost/games/index/8]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 16:40:41) [GET]
+  Parameters: {"id"=>"30"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/30]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:14:42) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:14:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:14:48) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 99ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:14:50) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:22:28) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:22:30) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (undefined local variable or method `super_numbers' for #<Generators::SuperGenerator:0x103200fb8>):
+  app/models/generators/super_generator.rb:37:in `generate_random_numbers'
+  app/controllers/generators_controller.rb:5:in `show'
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (111.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:22:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.5ms)
+Rendered common/_titlebar (1.1ms)
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:22:59) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 3, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 32ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:03) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:05) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:23:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:23:29) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 33ms (View: 3, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:23:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:23:45) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:23:46) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 33ms (View: 6, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:24:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.5ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:24:17) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:24:18) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+
+ActionView::TemplateError (Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #5 of app/views/generators/show.html.haml:
+2:     - nums = ""
+3:     - @numbers.each {|n| nums << "#{n} - "}
+4:     %b
+5:       = nums.chop.chop.chop
+6:     - nums = "&nbsp;&nbsp;"
+7:     -@super.each {|n| nums << "#{n} - "}
+8:     %b
+
+    app/views/generators/show.html.haml:5
+    haml (2.2.12) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.12) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:11:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:24:44) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:24:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+
+ActionView::TemplateError (Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #5 of app/views/generators/show.html.haml:
+2:     - nums = ""
+3:     - @numbers.each {|n| nums << "#{n} - "}
+4:     %b
+5:       = nums.chop.chop.chop
+6:     - nums = "&nbsp;&nbsp;"
+7:     -@super.each {|n| nums << "#{n} - "}
+8:     %b
+
+    app/views/generators/show.html.haml:5
+    haml (2.2.12) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.12) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:11:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (57.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:25:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:25:06) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 200ms (View: 11, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:25:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+
+ActionView::TemplateError (Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #5 of app/views/generators/show.html.haml:
+2:     - nums = ""
+3:     - @numbers.each {|n| nums << "#{n} - "}
+4:     %b
+5:       = nums.chop.chop.chop
+6:     - nums = "&nbsp;&nbsp;"
+7:     -@super.each {|n| nums << "#{n} - "}
+8:     %b
+
+    app/views/generators/show.html.haml:5
+    haml (2.2.12) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.12) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:11:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (130.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:25:43) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:25:44) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+
+ActionView::TemplateError (Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #8 of app/views/generators/show.html.haml:
+5:     - nums = "&nbsp;&nbsp;"
+6:     -@super.each {|n| nums << "#{n} - "}
+7:     %b
+8:       = nums.chop.chop.chop
+
+    app/views/generators/show.html.haml:8
+    haml (2.2.12) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.12) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.12) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.12) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:11:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (128.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:26:08) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:26:09) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:26:42) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:26:44) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 39ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:26:59) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:27:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 32ms (View: 6, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:06) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 105ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:28:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:28:42) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:28:43) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:29:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 92ms (View: 90, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:29:35) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:29:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 35ms (View: 7, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 18:30:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (14.0ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 18:30:15) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:30:16) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:30:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:30:24) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 97ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 18:30:25) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:57:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:57:27) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:57:28) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 109ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 20:57:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (9.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 20:57:32) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 20:57:33) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:57:34) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 20:57:45) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:57:48) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #6 of app/views/generators/show.html.haml:
+3:   - @numbers.each {|n| nums << "#{n} - "}
+4:   = "<b>#{nums.chop.chop.chop}</b>"
+5:   - nums = "&nbsp;&nbsp;"
+6:   -@super.each {|n| nums << "#{n} - "}
+7:   = "<b><span style='color:#BA2B00'>#{nums.chop.chop.chop}</span></b>"
+
+    app/views/generators/show.html.haml:6:in `_run_haml_app47views47generators47show46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/generators_controller.rb:11:in `show'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (121.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:19) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:35) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:41) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:44) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:44) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:58:44) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:59:18) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 32ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:59:26) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 99ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 20:59:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (2.0ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 20:59:31) [GET]
+  Parameters: {"id"=>"33"}
+Rendering games/index
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/33]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 20:59:33) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 36ms (View: 2, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 20:59:35) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:00:00) [GET]
+  Parameters: {"id"=>"31"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/31]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:00:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:00:05) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:08) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 97ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:12) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:15) [GET]
+  Parameters: {"id"=>"102"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/102]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:56) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 105ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:58) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:00:59) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:05) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:06) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:19) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:01:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:01:25) [GET]
+  Parameters: {"id"=>"30"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/30]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:01:26) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:28) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:29) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:30) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:30) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:30) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:31) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:31) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:32) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:32) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:33) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:33) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:34) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:01:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:01:44) [GET]
+  Parameters: {"id"=>"31"}
+Rendering games/index
+Completed in 121ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/31]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:01:46) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:48) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:49) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:49) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:49) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:50) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:50) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:50) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:50) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:50) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:51) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:01:52) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:01:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:02:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:02:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:02:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 21:02:58) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/32]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:01) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/108]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:02) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 96ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/108]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:03:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 21:03:30) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/32]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:32) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:33) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:34) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:35) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:36) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:36) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:37) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:38) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:38) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:03:39) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/107]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:03:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:03:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:04:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:07:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (73.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:08:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:08:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:08:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:08:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:09:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (73.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 79ms (View: 77, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:09:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:09:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:11:19) [GET]
+  Parameters: {"id"=>"107"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/107]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:11:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:11:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.1ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:11:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:11:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:12:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:13:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.0ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:13:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:14:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:14:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:14:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:15:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (73.0ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (73.1ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:16:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:16:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (82.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 88ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 192.168.1.8 at 2010-01-12 21:16:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://192.168.1.3/]
+
+
+Processing GamesController#show (for 127.0.0.1 at 2010-01-12 21:19:24) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index):
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:20:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.7ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:20:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (13.3ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:20:36) [GET]
+  Parameters: {"id"=>"12"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/12]
+
+
+Processing GamesController#show (for 127.0.0.1 at 2010-01-12 21:20:39) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index):
+  haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:20:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (11.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:21:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (12.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:21:25) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:21:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering games/index
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:21:29) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:21:31) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-12 21:21:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:22:01) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 37ms (View: 5, DB: 0) | 200 OK [http://localhost/games/index/2]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 21:22:07) [GET]
+  Parameters: {"id"=>"2"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/2]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:22:09) [GET]
+  Parameters: {"id"=>"undefined"}
+Rendering generators/show
+Completed in 97ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/undefined]
+
+
+Processing GamesController#index (for 192.168.1.8 at 2010-01-12 21:22:11) [GET]
+  Parameters: {"id"=>"25"}
+Rendering games/index
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/games/index/25]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:22:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:22:15) [GET]
+  Parameters: {"id"=>"89"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/89]
+
+
+Processing GeneratorsController#show (for 192.168.1.8 at 2010-01-12 21:22:19) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://192.168.1.3/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-12 21:22:40) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:22:41) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]

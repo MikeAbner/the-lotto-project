@@ -20,6 +20,6 @@ class Generators::Generator
     end
     numbers.sort!
     
-    numbers
+    {:numbers => numbers}
   end
 end

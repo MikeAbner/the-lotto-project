@@ -1,7 +1,9 @@
+%br{:style => "clear: both;"}
 .intro.widget.rounded-corners
   .header
     .title{:style => "float: none;"}
       %h2 Elevating the Lotto Experience!
+  %div{:style => "clear: both;"}
   .intro-container
     .info
       .text
@@ -12,17 +14,18 @@
         %p Oh!  And if you have any ideas of your own or just want to tell us how excited you are please drop us <a href=''>a note</a> and let us know!
     .basic-generator.rounded-corners
       .header
-        .title 
+        .title{:style => "float: none;"}
           %h4 Generate Numbers
       .details
         = render :partial => "generators/inputs"
+  %div{:style => "clear: both"}
 .features.widget.rounded-corners
   .header
     .title{:style => "float: none;"}
-      %h2 Features on the way!
+      %h2 Upcoming Features
   .feature.rounded-corners
     .header
-      .title{:style => "float: none;"}
+      .title{:style => "float: none"}
         %h4 Generate Numbers
     .details
       Randomly Generate lotto numbers for every lottery in the US!  We know the rules for every game, so we can generate numbers that you can play immediately.  We've got a lot of improvements lined up for the generator, but give the basic one a try below!
@@ -38,3 +41,5 @@
         %h4 Create or Join a Lotto Group
     .details
       Have a group of friends that play the lotto together?  Create a group and get organized!  Store the numbers you play.  Record when you play them to avoid purchasing duplicate tickets and much more!
+  %div{:style => "clear: both"}
+  %div{:style => "clear: both"}

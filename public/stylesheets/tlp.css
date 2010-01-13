@@ -13,6 +13,11 @@ h3 {
 }
 
 .main-container {
+	width:expression(document.body.clientWidth < 960? "960px": "auto" );
+	margin-left: 0px;
+}
+
+html>body .main-container {
 	margin-left: 20px;
 	min-width: 960px;
 }
@@ -242,19 +247,44 @@ CED3B7 - gray green beigish, 174487 - blue,
 	float: left;
 }
 
+.win.ie .text {
+	width: 57%;
+}
+
 .basic-generator {
-	width: 30%;
+	width: 310px;
 	border: 1px solid #aaaaaa;
-	height: 200px;
+	height: 165px;
 	background-color: #ededed;
 	padding: 4px;
+	margin-right: 0px;
 	float: right;
-	margin-right: 20px;
+}
+
+.win.ie.basic-generator {
+	width: 325px;
+	float: right;
+}
+
+.basic-generator .numbers {
+	font-size: 13pt;
+}
+
+.basic-generator .label {
+	width: 50px;
+	float: left;
+}
+
+.basic-generator .list {
+	
+}
+
+.hidden { 
+	display: none;
 }
 
 .features {
 	margin-top: 10px;
-	overflow: auto;
 }
 
 .features h2 {

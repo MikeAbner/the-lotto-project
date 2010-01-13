@@ -1,6 +1,44 @@
+:javascript
+  $(document).ready(function() {
+    $("#state_state_id :selected").text('Select a state');
+    $("#state_state_id").change(function() {
+      $("#numbers").hide();
+      $("#game_select_list").html('');
+      state_id = $("#state_state_id :selected").val();
+      if (state_id != "") {
+        loadGamesList(state_id);
+      }
+    });
+    $("#generate_numbers_trigger").mousedown(function() {
+      $(this).attr('src', '/images/generate_numbers_btn_down.png');
+    });
+    $("#generate_numbers_trigger").mouseup(function() {
+      $(this).attr('src', '/images/generate_numbers_btn.png');
+    });
+    $("#generate_numbers_trigger").click(function (){
+      game_id = $("#game_game_id :selected").val();
+      if (game_id != "") {
+        loadNumbers(game_id);
+      }
+    });
+  });
+
 %p
-  %b State:
-  = collection_select(:user, :state_id, State.all, :id, :name, {:include_blank => true})
+  .label
+    %b State:
+  .list
+    = collection_select(:state, :state_id, State.all, :id, :name, {:include_blank => true})
 %p
-  %b Game:
-  = collection_select(:game, :game_id, Game.all, :id, :name, {:include_blank => true})
+  .label
+    %b Game:
+  .list
+    #game_select_list
+      %select
+        %option Select a game
+%p
+  .numbers
+%p
+  #generate_button.hidden
+    = image_tag "/images/generate_numbers_btn.png", {:id => "generate_numbers_trigger", :alt => "Generate Numbers"}
+
+
