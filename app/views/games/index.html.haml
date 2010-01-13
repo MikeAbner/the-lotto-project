@@ -1,0 +1,4 @@
+- if @games.size == 0
+  Sorry, there are no lottos in this state.
+- else
+  = collection_select(:game, :game_id, @games, :id, :name, {:include_blank => false})
