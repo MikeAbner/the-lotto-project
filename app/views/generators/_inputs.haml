@@ -2,7 +2,7 @@
   $(document).ready(function() {
     $("#state_state_id :selected").text('Select a state');
     $("#state_state_id").change(function() {
-      $("#numbers").hide();
+      $(".numbers").hide();
       $("#game_select_list").html('');
       state_id = $("#state_state_id :selected").val();
       if (state_id != "") {
@@ -40,5 +40,3 @@
 %p
   #generate_button.hidden
     = image_tag "/images/generate_numbers_btn.png", {:id => "generate_numbers_trigger", :alt => "Generate Numbers"}
-
-

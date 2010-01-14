@@ -1,8 +1,5 @@
 - if !@numbers.nil? 
-  - nums = ""
-  - @numbers.each {|n| nums << "#{n} - "}
-  = "<b>#{nums.chop.chop.chop}</b>"
+  = "<b>#{@numbers.join(' - ')}</b>"
   - if !@super.nil?
-    - nums = " - "
-    -@super.each {|n| nums << "#{n} - "}
-    = "<b><span style='color:#BA2B00'>#{nums.chop.chop.chop}</span></b>"
+    = " - "
+    = "<b><span style='color:#BA2B00'>#{@super.join(' - ')}</span></b>"

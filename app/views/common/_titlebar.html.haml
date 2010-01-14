@@ -2,6 +2,12 @@
   .logo
     = image_tag "/images/cute-monster.png", {:style => "width: 100px;"}
     = image_tag "/images/logo-long.png"
-  %table.top-menu
-
+  .follow-links{:style => "float: right;margin-right: 5px;"}
+    .images{:style => "padding-left:5px;"}
+      %a{:href => "http://www.twitter.com/thelottoproject"}
+        = image_tag "http://twitter-badges.s3.amazonaws.com/t_logo-a.png", {:alt => "Follow thelottoproject on Twitter", :style => "border: 0px; vertical-align: middle;width: 30px; height:30px;"}
+      %a{:href => "http://www.facebook.com/the-lotto-project"}
+        = image_tag "/images/facebook_32.png", {:alt => "Become a friend or fan the-lotto-project on facebook", :style => "border: 0px; vertical-align: middle;"}
 .top-bar-bottom
+
+  

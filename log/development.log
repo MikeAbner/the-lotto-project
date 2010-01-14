@@ -11438,3 +11438,1986 @@ Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-12 21:22:41) [GET
   Parameters: {"id"=>"2"}
 Rendering generators/show
 Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 11:30:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (63.6ms)
+Rendered common/_titlebar (20.1ms)
+Completed in 204ms (View: 202, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:30:27) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 55ms (View: 7, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:30:30) [GET]
+  Parameters: {"id"=>"10"}
+Rendering generators/show
+Completed in 34ms (View: 6, DB: 0) | 200 OK [http://localhost/generators/show/10]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:30:34) [GET]
+  Parameters: {"id"=>"11"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/11]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:30:38) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:31:00) [GET]
+  Parameters: {"id"=>"14"}
+Rendering games/index
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/14]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:31:06) [GET]
+  Parameters: {"id"=>"51"}
+Rendering generators/show
+Completed in 96ms (View: 69, DB: 0) | 200 OK [http://localhost/generators/show/51]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:31:08) [GET]
+  Parameters: {"id"=>"9"}
+Rendering games/index
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/9]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:32:57) [GET]
+  Parameters: {"id"=>"4"}
+Rendering games/index
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/4]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 11:33:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:34:01) [GET]
+  Parameters: {"id"=>"15"}
+Rendering games/index
+Completed in 106ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/15]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:34:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:34:05) [GET]
+  Parameters: {"id"=>"3"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/3]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 11:34:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.5ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:35:01) [GET]
+  Parameters: {"id"=>"8"}
+Rendering games/index
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/8]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:35:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 11:35:04) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 11:35:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-13 12:03:00) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:03:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (10.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 12:03:13) [GET]
+  Parameters: {"id"=>"7"}
+Rendering games/index
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/7]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 12:03:17) [GET]
+  Parameters: {"id"=>"10"}
+Rendering games/index
+Completed in 107ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/10]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:19) [GET]
+  Parameters: {"id"=>"42"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/42]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:21) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:23) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:24) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 97ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:25) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:26) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:27) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:28) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 97ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:29) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:03:29) [GET]
+  Parameters: {"id"=>"44"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/44]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:09:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:09:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 90ms (View: 89, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:12:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:13:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:13:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:13:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:13:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:17:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (0.4ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 12:25:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (62.1ms)
+Rendered common/_titlebar (20.4ms)
+Completed in 279ms (View: 276, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-13 12:32:52) [GET]
+  Parameters: {"id"=>"5"}
+Rendering games/index
+Completed in 113ms (View: 21, DB: 0) | 200 OK [http://localhost/games/index/5]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-13 12:32:53) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 48ms (View: 20, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:51:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (74.9ms)
+ERROR: compiling _run_haml_app47views47common47_titlebar46html46haml_locals_object_titlebar RAISED compile error
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected tSTRING_BEG, expecting ')'
+...false, false, nil, nil, :src="http://twitter-badges.s3.amazo...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected ',', expecting kEND
+...3.amazonaws.com/t_mini-a.png",  :alt="Follow mike_abner on T...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected ')', expecting kEND
+...Follow mike_abner on Twitter");
+                              ^
+Function body:           def _run_haml_app47views47common47_titlebar46html46haml_locals_object_titlebar(local_assigns)
+            old_output_buffer = output_buffer;titlebar = local_assigns[:titlebar];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :escape_html=>false, :ugly=>false, :preserve=>["textarea", "pre", "code"], :format=>:xhtml, :encoding=>nil, :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<div class='top-bar-top'>\n  <div class='logo'>\n    #{_hamlout.adjust_tabs(2); haml_temp =  image_tag "/images/cute-monster.png", {:style => "width: 100px;"}
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  image_tag "/images/logo-long.png"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </div>\n  <table class='top-menu'>\n", 0, false);
+
+_hamlout.push_text("    <a href='http://www.twitter.com/mike_abner'>\n", 1, false);_hamlout.open_tag("img", true, true, false, false, {}, false, false, nil, nil, :src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png",  :alt="Follow mike_abner on Twitter");
+_hamlout.push_text("    </a>\n  </table>\n</div>\n<div class='top-bar-bottom'></div>\n", -3, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:11:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/mabner/projects/the-lotto-project/app/views/layouts/application.html.haml:10:in `_run_haml_app47views47layouts47application46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected tSTRING_BEG, expecting ')'
+...false, false, nil, nil, :src="http://twitter-badges.s3.amazo...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected ',', expecting kEND
+...3.amazonaws.com/t_mini-a.png",  :alt="Follow mike_abner on T...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/common/_titlebar.html.haml:7: syntax error, unexpected ')', expecting kEND
+...Follow mike_abner on Twitter");
+                              ^) on line #7 of app/views/common/_titlebar.html.haml:
+4:     = image_tag "/images/logo-long.png"
+5:   %table.top-menu
+6:     %a{:href => "http://www.twitter.com/mike_abner"}
+7:       %img{:src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png",  :alt="Follow mike_abner on Twitter"}
+8: .top-bar-bottom
+
+    app/views/common/_titlebar.html.haml:11:in `compile!'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.12) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/layouts/application.html.haml:10:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (59.5ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:51:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (2.2ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:52:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (2.2ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:53:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (2.6ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:53:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.3ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:53:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (2.2ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:54:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (70.0ms)
+Rendered common/_titlebar (2.5ms)
+Completed in 82ms (View: 80, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:54:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (2.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:55:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.0ms)
+Rendered common/_titlebar (2.6ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:56:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:57:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (2.4ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:58:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (2.2ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:58:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (2.3ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 13:59:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (3.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:26:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+
+ActionView::TemplateError (wrong number of arguments (3 for 2)) on line #9 of app/views/common/_titlebar.html.haml:
+6: .top-bar-bottom
+7:   %b Follow us!
+8:   %a{:href => "http://www.twitter.com/thelottoproject"}
+9:     = image_tag "/images/twitter_32.png", "Follow thelottoproject on Twitter", {:style => "border: 0px; vertical-align: middle;"}
+10:   %a{:href => "http://www.facebook.com/the-lotto-project"}
+11:     = image_tag "/images/facebook_32.png", "Become a friend or fan the-lotto-project on facebook", {:style => "border: 0px; vertical-align: middle;"}
+12:   
+
+    app/views/common/_titlebar.html.haml:9:in `image_tag'
+    app/views/common/_titlebar.html.haml:9:in `_run_haml_app47views47common47_titlebar46html46haml_locals_object_titlebar'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.12) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/layouts/application.html.haml:10:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (57.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:27:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:28:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (3.0ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:28:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (3.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:28:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (2.8ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:29:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:29:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:30:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:30:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (2.6ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:30:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:31:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.5ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:31:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (2.7ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:31:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.4ms)
+Rendered common/_titlebar (2.8ms)
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:33:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.3ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:33:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (3.1ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:33:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.2ms)
+Rendered common/_titlebar (2.9ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:33:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.1ms)
+Rendered common/_titlebar (2.8ms)
+Completed in 88ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:33:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (3.1ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:34:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.9ms)
+Rendered common/_titlebar (2.9ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:34:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.7ms)
+Rendered common/_titlebar (3.2ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:35:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (3.0ms)
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:35:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.1ms)
+Rendered common/_titlebar (3.1ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:35:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (8.7ms)
+Rendered common/_titlebar (3.2ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:35:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.6ms)
+Rendered common/_titlebar (3.2ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:35:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (3.1ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:38:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (The line was indented 4 levels deeper than the previous line.) on line #15 of app/views/welcome/index.html.haml:
+12:         %p
+13:           Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter <a href="http://www.twitter.com/mike_abner"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow mike_abner on Twitter"/></a> and Facebook <a href="http://www.facebook.com/the-lotto-project">
+14: = image_tag "/images/facebook_16.png", {:alt => "Follow mike_abner on Twitter"}!
+15:         %p Oh!  And if you have any ideas of your own or just want to tell us how excited you are please drop us <a href=''>a note</a> and let us know!
+16:     .basic-generator.rounded-corners
+17:       .header
+18:         .title{:style => "float: none;"}
+
+    app/views/welcome/index.html.haml:15
+    haml (2.2.12) lib/haml/precompiler.rb:180:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:38:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+ERROR: compiling _run_haml_app47views47welcome47index46html46haml RAISED compile error
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:14: syntax error, unexpected '!', expecting '}'
+Function body:           def _run_haml_app47views47welcome47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :escape_html=>false, :ugly=>false, :preserve=>["textarea", "pre", "code"], :format=>:xhtml, :encoding=>nil, :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<br style='clear: both;' />\n<div class='intro widget rounded-corners'>\n  <div class='header'>\n    <div class='title' style='float: none;'>\n      <h2>Elevating the Lotto Experience!</h2>\n    </div>\n  </div>\n  <div style='clear: both;'></div>\n  <div class='intro-container'>\n    <div class='info'>\n      <div class='text'>\n        <p>\n          Look out!  The Lotto Project is on the way.\n        </p>\n        <p>\n          Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter <a href=\"http://www.twitter.com/mike_abner\"><img src=\"http://twitter-badges.s3.amazonaws.com/t_mini-a.png\" alt=\"Follow mike_abner on Twitter\"/></a> and Facebook <a href=\"http://www.facebook.com/the-lotto-project\">\n          #{_hamlout.adjust_tabs(5); haml_temp =  image_tag "/images/facebook_16.png", {:alt => "Follow mike_abner on Twitter"}!
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        </p>\n        <p>Oh!  And if you have any ideas of your own or just want to tell us how excited you are please drop us <a href=''>a note</a> and let us know!</p>\n", -1, false);
+
+
+
+
+
+_hamlout.push_text("      </div>\n    </div>\n    <div class='basic-generator rounded-corners'>\n      <div class='header'>\n        <div class='title' style='float: none;'>\n          <h4>Generate Numbers</h4>\n        </div>\n      </div>\n      <div class='details'>\n        #{haml_temp =  render :partial => "generators/inputs"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </div>\n    </div>\n  </div>\n  <div style='clear: both'></div>\n", -3, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("</div>\n<div class='features widget rounded-corners'>\n  <div class='header'>\n    <div class='title' style='float: none;'>\n      <h2>Upcoming Features</h2>\n    </div>\n  </div>\n  <div class='feature rounded-corners'>\n    <div class='header'>\n      <div class='title' style='float: none'>\n        <h4>Generate Numbers</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Randomly Generate lotto numbers for every lottery in the US!  We know the rules for every game, so we can generate numbers that you can play immediately.  We've got a lot of improvements lined up for the generator, but give the basic generator a try above!\n    </div>\n  </div>\n  <div class='feature rounded-corners'>\n    <div class='header'>\n      <div class='title' style='float: none;'>\n        <h4>Track Results</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Ever wondered what your win percentage was?  Or more importantly how it stacks up against the rest of the lotto playing public?  Record the numbers you play and your result and we'll give you all the stats you can handle!&nbsp;\n    </div>\n  </div>\n  <div class='feature rounded-corners last'>\n    <div class='header'>\n      <div class='title' style='float: none;'>\n        <h4>Create or Join a Lotto Group</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Have a group of friends that play the lotto together?  Create a group and get organized!  With a lotto group you can store the numbers you play, record when you play them and the result, and discuss strategy with your group-mates.\n    </div>\n  </div>\n  <div style='clear: both'></div>\n  <div style='clear: both'></div>\n</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:49:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:14: syntax error, unexpected '!', expecting '}') on line #14 of app/views/welcome/index.html.haml:
+11:           Look out!  The Lotto Project is on the way.
+12:         %p
+13:           Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter <a href="http://www.twitter.com/mike_abner"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow mike_abner on Twitter"/></a> and Facebook <a href="http://www.facebook.com/the-lotto-project">
+14:           = image_tag "/images/facebook_16.png", {:alt => "Follow mike_abner on Twitter"}!
+15:         %p Oh!  And if you have any ideas of your own or just want to tell us how excited you are please drop us <a href=''>a note</a> and let us know!
+16:     .basic-generator.rounded-corners
+17:       .header
+
+    app/views/welcome/index.html.haml:49:in `compile!'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:38:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.2ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:39:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 104ms (View: 102, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:39:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:39:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+ERROR: compiling _run_haml_app47views47welcome47index46html46haml RAISED compile error
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp option - p
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unmatched ): /a>
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          !\n", 0, false);
+
+
+
+
+
+
+_hamlout.push_text("        </
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...mlout.push_text("        </p>\n        <p>Oh!  And if you ha...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...     </p>\n        <p>Oh!  And if you have any ideas of your...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...you are please drop us <a href=''>a note</a> and let us know...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...ease drop us <a href=''>a note</a> and let us know!</p>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp option - p
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...note</a> and let us know!</p>\n      </div>\n    </div>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+.../p>\n      </div>\n    </div>\n    <div class='basic-generat...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...v>\n    </div>\n    <div class='basic-generator rounded-corn...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...c-generator rounded-corners'>\n      <div class='header'>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ed-corners'>\n      <div class='header'>\n        <div class...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...>\n      <div class='header'>\n        <div class='title' st...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...='header'>\n        <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting '}'
+...      <div class='title' style='float: none;'>\n          <h...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n          <h4>Generate Number...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...          <h4>Generate Numbers</h4>\n        </div>\n      <...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+... Numbers</h4>\n        </div>\n      </div>\n      <div clas...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected $undefined
+...l_very_temp));}\n      </div>\n    </div>\n  </div>\n  <div ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected $undefined
+... </div>\n    </div>\n  </div>\n  <div style='clear: both'></...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...</div>\n  </div>\n  <div style='clear: both'></div>\n", -3, ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected '<'
+...\n  <div style='clear: both'></div>\n", -3, false);
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unmatched ): /div>\n", -3, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("</
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+_hamlout.push_text("</div>\n<div class='features widget r...
+                           ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+....push_text("</div>\n<div class='features widget rounded-corn...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ures widget rounded-corners'>\n  <div class='header'>\n    <...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ounded-corners'>\n  <div class='header'>\n    <div class='ti...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ers'>\n  <div class='header'>\n    <div class='title' style=...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...lass='header'>\n    <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...\n    <div class='title' style='float: none;'>\n      <h2>Up...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n      <h2>Upcoming Features</...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...>\n      <h2>Upcoming Features</h2>\n    </div>\n  </div>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ing Features</h2>\n    </div>\n  </div>\n  <div class='featu...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp option - h
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tINTEGER, expecting '}'
+...      <h4>Generate Numbers</h4>\n      </div>\n    </div>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...h4>\n      </div>\n    </div>\n    <div class='details'>\n  ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...v>\n    </div>\n    <div class='details'>\n      Randomly Ge...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...v>\n    <div class='details'>\n      Randomly Generate lotto...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...otto numbers for every lottery in the US!  We know the rules...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... know the rules for every game, so we can generate numbers t...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...he rules for every game, so we can generate numbers that you...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+... </div>\n  <div class='feature rounded-corners'>\n    <div c...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+...lass='feature rounded-corners'>\n    <div class='header'>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ners'>\n    <div class='header'>\n      <div class='title' s...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...der'>\n      <div class='title' style='float: none;'>\n     ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...div class='title' style='float: none;'>\n        <h4>Track R...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+.../div>\n    <div class='details'>\n      Ever wondered what y...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...play and your result and we'll give you all the stats you ca...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined, expecting '}'
+...e stats you can handle!&nbsp;\n    </div>\n  </div>\n  <div ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...!&nbsp;\n    </div>\n  </div>\n  <div class='feature rounded...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...</div>\n  </div>\n  <div class='feature rounded-corners last...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...eature rounded-corners last'>\n    <div class='header'>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...corners last'>\n    <div class='header'>\n      <div class='...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...t'>\n    <div class='header'>\n      <div class='title' styl...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ss='header'>\n      <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...      <div class='title' style='float: none;'>\n        <h4>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n        <h4>Create or Join a ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...otto Group</h4>\n      </div>\n    </div>\n    <div class='d...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...your group-mates.\n    </div>\n  </div>\n  <div style='clear...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...iv style='clear: both'></div>\n  <div style='clear: both'></...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...ar: both'></div>\n  <div style='clear: both'></div>\n</div>\...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected '<'
+...\n  <div style='clear: both'></div>\n</div>\n", -1, false);_...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...='clear: both'></div>\n</div>\n", -1, false);_erbout;ensure;...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unterminated string meets end of file
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $end, expecting '}'
+Function body:           def _run_haml_app47views47welcome47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :escape_html=>false, :ugly=>false, :preserve=>["textarea", "pre", "code"], :format=>:xhtml, :encoding=>nil, :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<br style='clear: both;' />\n<div class='intro widget rounded-corners'>\n  <div class='header'>\n    <div class='title' style='float: none;'>\n      <h2>Elevating the Lotto Experience!</h2>\n    </div>\n  </div>\n  <div style='clear: both;'></div>\n  <div class='intro-container'>\n    <div class='info'>\n      <div class='text'>\n        <p>\n          Look out!  The Lotto Project is on the way.\n        </p>\n        <p>\n          Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter <a href=\"http://www.twitter.com/mike_abner\"><img src=\"http://twitter-badges.s3.amazonaws.com/t_mini-a.png\" alt=\"Follow mike_abner on Twitter\" border=\"0px\"/></a> and Facebook <a href=\"http://www.facebook.com/the-lotto-project\">\n          #{_hamlout.adjust_tabs(5); haml_temp =  image_tag "/images/facebook_16.png", {:alt => "Follow mike_abner on Twitter", :style => "border:0px;"}</a>
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          !\n", 0, false);
+
+
+
+
+
+
+_hamlout.push_text("        </p>\n        <p>Oh!  And if you have any ideas of your own or just want to tell us how excited you are please drop us <a href=''>a note</a> and let us know!</p>\n      </div>\n    </div>\n    <div class='basic-generator rounded-corners'>\n      <div class='header'>\n        <div class='title' style='float: none;'>\n          <h4>Generate Numbers</h4>\n        </div>\n      </div>\n      <div class='details'>\n        #{_hamlout.adjust_tabs(-1); haml_temp =  render :partial => "generators/inputs"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </div>\n    </div>\n  </div>\n  <div style='clear: both'></div>\n", -3, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("</div>\n<div class='features widget rounded-corners'>\n  <div class='header'>\n    <div class='title' style='float: none;'>\n      <h2>Upcoming Features</h2>\n    </div>\n  </div>\n  <div class='feature rounded-corners'>\n    <div class='header'>\n      <div class='title' style='float: none'>\n        <h4>Generate Numbers</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Randomly Generate lotto numbers for every lottery in the US!  We know the rules for every game, so we can generate numbers that you can play immediately.  We've got a lot of improvements lined up for the generator, but give the basic generator a try above!\n    </div>\n  </div>\n  <div class='feature rounded-corners'>\n    <div class='header'>\n      <div class='title' style='float: none;'>\n        <h4>Track Results</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Ever wondered what your win percentage was?  Or more importantly how it stacks up against the rest of the lotto playing public?  Record the numbers you play and your result and we'll give you all the stats you can handle!&nbsp;\n    </div>\n  </div>\n  <div class='feature rounded-corners last'>\n    <div class='header'>\n      <div class='title' style='float: none;'>\n        <h4>Create or Join a Lotto Group</h4>\n      </div>\n    </div>\n    <div class='details'>\n      Have a group of friends that play the lotto together?  Create a group and get organized!  With a lotto group you can store the numbers you play, record when you play them and the result, and discuss strategy with your group-mates.\n    </div>\n  </div>\n  <div style='clear: both'></div>\n  <div style='clear: both'></div>\n</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.12/lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp option - p
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unmatched ): /a>
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          !\n", 0, false);
+
+
+
+
+
+
+_hamlout.push_text("        </
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...mlout.push_text("        </p>\n        <p>Oh!  And if you ha...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...     </p>\n        <p>Oh!  And if you have any ideas of your...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...you are please drop us <a href=''>a note</a> and let us know...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...ease drop us <a href=''>a note</a> and let us know!</p>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp option - p
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...note</a> and let us know!</p>\n      </div>\n    </div>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+.../p>\n      </div>\n    </div>\n    <div class='basic-generat...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...v>\n    </div>\n    <div class='basic-generator rounded-corn...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...c-generator rounded-corners'>\n      <div class='header'>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ed-corners'>\n      <div class='header'>\n        <div class...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...>\n      <div class='header'>\n        <div class='title' st...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...='header'>\n        <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tIDENTIFIER, expecting '}'
+...      <div class='title' style='float: none;'>\n          <h...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n          <h4>Generate Number...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...          <h4>Generate Numbers</h4>\n        </div>\n      <...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:22: syntax error, unexpected $undefined
+... Numbers</h4>\n        </div>\n      </div>\n      <div clas...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected $undefined
+...l_very_temp));}\n      </div>\n    </div>\n  </div>\n  <div ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected $undefined
+... </div>\n    </div>\n  </div>\n  <div style='clear: both'></...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...</div>\n  </div>\n  <div style='clear: both'></div>\n", -3, ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:23: syntax error, unexpected '<'
+...\n  <div style='clear: both'></div>\n", -3, false);
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unmatched ): /div>\n", -3, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("</
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+_hamlout.push_text("</div>\n<div class='features widget r...
+                           ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+....push_text("</div>\n<div class='features widget rounded-corn...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ures widget rounded-corners'>\n  <div class='header'>\n    <...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ounded-corners'>\n  <div class='header'>\n    <div class='ti...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ers'>\n  <div class='header'>\n    <div class='title' style=...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...lass='header'>\n    <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...\n    <div class='title' style='float: none;'>\n      <h2>Up...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n      <h2>Upcoming Features</...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...>\n      <h2>Upcoming Features</h2>\n    </div>\n  </div>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...ing Features</h2>\n    </div>\n  </div>\n  <div class='featu...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp option - h
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tINTEGER, expecting '}'
+...      <h4>Generate Numbers</h4>\n      </div>\n    </div>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...h4>\n      </div>\n    </div>\n    <div class='details'>\n  ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...v>\n    </div>\n    <div class='details'>\n      Randomly Ge...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...v>\n    <div class='details'>\n      Randomly Generate lotto...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...otto numbers for every lottery in the US!  We know the rules...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... know the rules for every game, so we can generate numbers t...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...he rules for every game, so we can generate numbers that you...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+... </div>\n  <div class='feature rounded-corners'>\n    <div c...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+...lass='feature rounded-corners'>\n    <div class='header'>\n ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ners'>\n    <div class='header'>\n      <div class='title' s...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...der'>\n      <div class='title' style='float: none;'>\n     ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...div class='title' style='float: none;'>\n        <h4>Track R...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+.../div>\n    <div class='details'>\n      Ever wondered what y...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...play and your result and we'll give you all the stats you ca...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined, expecting '}'
+...e stats you can handle!&nbsp;\n    </div>\n  </div>\n  <div ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...!&nbsp;\n    </div>\n  </div>\n  <div class='feature rounded...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...</div>\n  </div>\n  <div class='feature rounded-corners last...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...eature rounded-corners last'>\n    <div class='header'>\n   ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...corners last'>\n    <div class='header'>\n      <div class='...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...t'>\n    <div class='header'>\n      <div class='title' styl...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected kCLASS, expecting kDO or '{' or '('
+...ss='header'>\n      <div class='title' style='float: none;'>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+...      <div class='title' style='float: none;'>\n        <h4>...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...'title' style='float: none;'>\n        <h4>Create or Join a ...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...otto Group</h4>\n      </div>\n    </div>\n    <div class='d...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...your group-mates.\n    </div>\n  </div>\n  <div style='clear...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...iv style='clear: both'></div>\n  <div style='clear: both'></...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...ar: both'></div>\n  <div style='clear: both'></div>\n</div>\...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected '<'
+...\n  <div style='clear: both'></div>\n</div>\n", -1, false);_...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unknown regexp options - dv
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $undefined
+...='clear: both'></div>\n</div>\n", -1, false);_erbout;ensure;...
+                              ^
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: unterminated string meets end of file
+/Users/mabner/projects/the-lotto-project/app/views/welcome/index.html.haml:47: syntax error, unexpected $end, expecting '}') on line #22 of app/views/welcome/index.html.haml:
+19:         .title{:style => "float: none;"}
+20:           %h4 Generate Numbers
+21:       .details
+22:         = render :partial => "generators/inputs"
+23:   %div{:style => "clear: both"}
+24: .features.widget.rounded-corners
+25:   .header
+
+    app/views/welcome/index.html.haml:47:in `compile!'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:41:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (Unbalanced brackets.) on line #14 of app/views/welcome/index.html.haml:
+11:           Look out!  The Lotto Project is on the way.
+12:         %p
+13:           Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter 
+14:           %a{:href => "http://www.twitter.com/mike_abner"
+15:             = image_tag "http://twitter-badges.s3.amazonaws.com/t_mini-a.png", {:alt => "Follow mike_abner on Twitter", :style => "border:0px;" 
+16:           and Facebook 
+17:           %a{:href => "http://www.facebook.com/the-lotto-project"}
+
+    app/views/welcome/index.html.haml:14
+    haml (2.2.12) lib/haml/precompiler.rb:976:in `balance'
+    haml (2.2.12) lib/haml/precompiler.rb:579:in `parse_old_attributes'
+    haml (2.2.12) lib/haml/precompiler.rb:549:in `parse_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:669:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:41:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (Unbalanced brackets.) on line #14 of app/views/welcome/index.html.haml:
+11:           Look out!  The Lotto Project is on the way.
+12:         %p
+13:           Our goal is to create <strong>the</strong> lotto destination on the web.  How are we going to do that?  Tough question, but we have a bunch of really neat ideas.  We'll be sharing those with you as we get closer to releasing them.  In the meantime, check out the first three upcoming features below, bookmark us, and follow us on Twitter 
+14:           %a{:href => "http://www.twitter.com/mike_abner"
+15:             = image_tag "http://twitter-badges.s3.amazonaws.com/t_mini-a.png", {:alt => "Follow mike_abner on Twitter", :style => "border:0px;"}
+16:           and Facebook 
+17:           %a{:href => "http://www.facebook.com/the-lotto-project"}
+
+    app/views/welcome/index.html.haml:14
+    haml (2.2.12) lib/haml/precompiler.rb:976:in `balance'
+    haml (2.2.12) lib/haml/precompiler.rb:579:in `parse_old_attributes'
+    haml (2.2.12) lib/haml/precompiler.rb:549:in `parse_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:669:in `render_tag'
+    haml (2.2.12) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.12) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.12) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.12) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.12) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:41:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.6ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:41:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:42:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.7ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:44:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.3ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 14:44:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (7.4ms)
+Rendered common/_titlebar (0.6ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-13 15:24:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (6.8ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 87ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-14 12:38:22) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-01-14 12:38:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered generators/_inputs (23.8ms)
+Rendered common/_titlebar (0.5ms)
+Completed in 44ms (View: 42, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-14 12:38:28) [GET]
+  Parameters: {"id"=>"6"}
+Rendering games/index
+Completed in 137ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/6]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:38:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 111ms (View: 7, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:02) [GET]
+  Parameters: {"id"=>"19"}
+Rendering generators/show
+Completed in 34ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/19]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 33ms (View: 5, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:25) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:26) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:29) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:29) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 109ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering generators/show
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/1]
+
+
+Processing GamesController#index (for 127.0.0.1 at 2010-01-14 12:39:36) [GET]
+  Parameters: {"id"=>"32"}
+Rendering games/index
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/games/index/32]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering generators/show
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/2]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:39) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 110ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:41) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:41) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:41) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:41) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 119ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 44ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 88ms (View: 33, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 51ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:42) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 54ms (View: 3, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 47ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 134ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:43) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:44) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:44) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 173ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 42ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 114ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:45) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 45ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
+
+
+Processing GeneratorsController#show (for 127.0.0.1 at 2010-01-14 12:39:46) [GET]
+  Parameters: {"id"=>"108"}
+Rendering generators/show
+Completed in 45ms (View: 1, DB: 0) | 200 OK [http://localhost/generators/show/108]
