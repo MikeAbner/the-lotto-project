@@ -3,6 +3,8 @@ class User < ActiveRecord::Base
   # Others available are :lockable, :timeoutable and :activatable.
   devise :authenticatable, :rememberable, :trackable, :validatable, :timeoutable
 
+  has_many :comments
+
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :admin
 end

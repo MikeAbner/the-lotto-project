@@ -308,3 +308,12 @@ html>body .main-container {
 	background-color: white;
 	width: 98%;
 }
+
+.blog-post .comment {
+	margin-bottom: 10px;
+}
+
+.blog-post .comments h4 {
+	border-bottom: 1px dashed #BA2B00;
+	margin-bottom: 5px;
+}
