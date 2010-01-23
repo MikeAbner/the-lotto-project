@@ -270,3 +270,22 @@ html>body .main-container {
 .feature .last {
 	float: none;
 }
+
+.blog {
+	margin-top: 10px;
+	width: 60%;
+	overflow: auto;
+}
+
+.blog .post {
+	overflow: auto;
+}
+
+.blog .spacer {
+	margin-top: 20px;
+}
+
+.blog .text {
+	background-color: white;
+	width: 98%;
+}
