@@ -1,4 +1,6 @@
-ActionController::Routing::Routes.draw do |map|  
+ActionController::Routing::Routes.draw do |map|
+  map.devise_for :users
+  
   map.resources :blog
   map.resources :blog_posts
   map.resources :games

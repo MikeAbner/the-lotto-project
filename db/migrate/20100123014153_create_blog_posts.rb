@@ -3,7 +3,7 @@ class CreateBlogPosts < ActiveRecord::Migration
     create_table :blog_posts do |t|
       t.integer     :user_id
       t.datetime    :pub_date
-      t.status      :integer
+      t.integer     :status
       t.string      :title
       t.text        :content
       t.timestamps

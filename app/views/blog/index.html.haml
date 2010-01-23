@@ -1,4 +1,9 @@
 .blog.widget.rounded-corners
+  - if !current_user.nil?
+    - if current_user.admin
+      = link_to "New Post", new_blog_post_path
+      %br
+      %br
   - @posts.each do |post|
-    = render :partial => "blog_posts/post", :locals => {:post => post}
+    = render :partial => "blog_posts/post", :locals => {:post => post, :short => true}
     .spacer
