@@ -1,9 +1,10 @@
 class CreateBlogPosts < ActiveRecord::Migration
   def self.up
     create_table :blog_posts do |t|
-      t.string      :title
+      t.integer     :user_id
       t.datetime    :pub_date
       t.status      :integer
+      t.string      :title
       t.text        :content
       t.timestamps
     end

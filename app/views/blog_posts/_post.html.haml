@@ -1,0 +1,16 @@
+.post
+  .header
+    .title
+      %h4
+        =h post.title
+    .menu
+      %h4
+        =h post.pub_date.to_formatted_s(:long)
+    %br.cb
+  .text
+    - if post.content.size > 500
+      = "#{post.content.slice(0..500)}..."
+    - else
+      = post.content
+    %p
+      = link_to 'Continue Reading', blog_post_path(post.id)

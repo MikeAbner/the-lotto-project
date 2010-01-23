@@ -1,14 +1,4 @@
 .blog.widget.rounded-corners
   - @posts.each do |post|
-    .post
-      .header
-        .title
-          %h4
-            =h post.title
-        .menu
-          %h4
-            =h post.pub_date.to_formatted_s(:long)
-      .text
-        = post.content
+    = render :partial => "blog_posts/post", :locals => {:post => post}
     .spacer
-      

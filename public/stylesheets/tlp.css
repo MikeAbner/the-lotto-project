@@ -12,6 +12,10 @@ h3 {
 	margin-top: 0px;
 }
 
+.cb {
+	clear: both;
+}
+
 .main-container {
 	width:expression(document.body.clientWidth < 960? "960px": "auto" );
 	margin-left: 0px;
@@ -108,7 +112,7 @@ html>body .main-container {
 	-moz-border-radius-bottomleft: 4px;
 	-moz-border-radius-bottomright: 4px;
 	-webkit-border-bottom-left-radius: 4px;
-    -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
 }
 
 .top-bar-bottom a {color: #BA2B00;text-decoration:none;font-family:helvetica;font-weight: bold;}
@@ -285,7 +289,26 @@ html>body .main-container {
 	margin-top: 20px;
 }
 
+.win .ie .blog .spacer {
+	margin-top: 200px;
+}
+
 .blog .text {
+	background-color: white;
+	width: 98%;
+}
+
+.blog-post {
+	margin-top: 10px;
+	width: 60%;
+	overflow: auto;
+}
+
+.blog-post .post {
+	overflow: auto;
+}
+
+.blog-post .text {
 	background-color: white;
 	width: 98%;
 }
