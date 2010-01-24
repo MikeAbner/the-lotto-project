@@ -19,6 +19,7 @@ class CommentsController < ApplicationController
     end
   
     if c.save
+      flash[:success] = "Your comment has been submitted for approval.  It will appear once it has been approved."
       redirect_to blog_post_path(params[:blog_post][:id])
     else
       redirect_to blog_post_path(params[:blog_post][:id])

@@ -8,4 +8,19 @@
     .container_16.main-container
       .grid_16.content.rounded-corners
         = render :partial => "common/titlebar"
+        - if flash[:success]
+          .message.success
+            = flash[:success]
+            - flash[:success] = nil
+        - if flash[:notice]
+          .message.notice
+            = flash[:notice]
+            - flash[:notice] = nil
+        - if flash[:error]
+          .message.error
+            = flash[:error]
+            - flash[:error] = nil
+        - if flash[:failure]
+          .message.error
+            = flash[:failure]
         = yield
