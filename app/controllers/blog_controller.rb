@@ -1,4 +1,5 @@
 class BlogController < ApplicationController
+  before_filter :authenticate_user!
   def index
     @posts = BlogPost.published_posts
 

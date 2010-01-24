@@ -1,4 +1,5 @@
 class GeneratorsController < ApplicationController
+  before_filter :authenticate_user!
   def show
     @game = Game.find(params[:id].to_i)
     if !@game.nil?
