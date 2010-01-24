@@ -12,10 +12,18 @@
         = f.hidden_field :blog_post_id
         %p
           = f.label :user_id
-          = c.user_id
+          %b
+            - if c.user.nil?
+              = "Guest"
+            - else
+              - if !c.user.nickname.blank?
+                = c.user.nickname
+              - else
+                = c.user.email
         %p
           = f.label :content
-          =h c.content
+          %b
+            =h c.content
         %p
           - if c.approved
             = f.submit 'Unapprove'
