@@ -1,6 +1,7 @@
 class CommentsController < ApplicationController
   before_filter :authenticate_user!
   def index
+    @posts = BlogPost.find(:all, :order => "pub_date desc")
   end
   def show
     @post = BlogPost.find(params[:id])    

@@ -2,6 +2,9 @@
   - if !current_user.nil?
     - if current_user.admin
       = link_to "New Post", new_blog_post_path
+      - if !current_user.nil?
+        - if current_user.admin
+          = link_to "#{BlogPost.unapproved_comments} unapproved comments", comments_path
       %br
       %br
   - @posts.each do |post|

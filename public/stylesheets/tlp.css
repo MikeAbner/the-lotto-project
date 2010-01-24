@@ -322,6 +322,15 @@ html>body .main-container {
 	
 }
 
+.blog-comments {
+	margin-top: 10px;
+	overflow: auto;
+}
+
+.blog-comments .text {
+	overflow: auto;
+}
+
 .comment-approval {
 	overflow: auto;
 }

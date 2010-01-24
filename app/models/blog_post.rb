@@ -9,6 +9,14 @@ class BlogPost < ActiveRecord::Base
           :order => "pub_date desc")
   end
   
+  def self.unapproved_comments
+    count = 0
+    Comment.all.each do |c|
+      count += 1 if c.approved != true
+    end
+    count
+  end
+  
   def unapproved_comments
     count = 0
     comments.each do |c|
