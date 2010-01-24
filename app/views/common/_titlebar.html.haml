@@ -2,6 +2,13 @@
   .logo
     = image_tag "/images/cute-monster.png", {:style => "width: 100px;"}
     = image_tag "/images/logo-long.png"
+  %table.top-menu
+    %tr
+      %td
+        &nbsp;
+        - if !current_user.nil?
+          = link_to 'Logout', destroy_user_session_path
+        &nbsp;
 .top-bar-bottom
   %table{:style => "padding-left: 30px;float:left;"}
     %tr
