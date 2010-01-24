@@ -9,7 +9,13 @@ class CommentsController < ApplicationController
   def create
     c = Comment.new(params[:comment])
     c.blog_post_id = params[:blog_post][:id]
-    c.user_id = params[:user][:id] unless params[:user].blank?
+    c.user = current_user unless current_user.nil?
+  
+    if !current_user.nil?
+      if current_user.admin
+        c.approved = true
+      end
+    end
   
     if c.save
       redirect_to blog_post_path(params[:blog_post][:id])
