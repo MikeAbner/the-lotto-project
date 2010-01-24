@@ -317,3 +317,15 @@ html>body .main-container {
 	border-bottom: 1px dashed #BA2B00;
 	margin-bottom: 5px;
 }
+
+.blog-post .comment-form textarea {
+	
+}
+
+.comment-approval {
+	overflow: auto;
+}
+
+.comment-approval .text {
+	overflow: auto;
+}

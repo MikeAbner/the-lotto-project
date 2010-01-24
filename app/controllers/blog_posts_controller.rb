@@ -14,7 +14,8 @@ class BlogPostsController < ApplicationController
   end
   def create
     @post = BlogPost.new(params[:blog_post])
-    
+  
+    @post.user = current_user  
     @post.pub_date = DateTime.now
     
     if @post.save
@@ -27,7 +28,7 @@ class BlogPostsController < ApplicationController
   end
   def update
     @post = BlogPost.find(params[:id])
-    
+  
     @post.pub_date = DateTime.now
     
     if @post.update_attributes(params[:blog_post])

@@ -11,7 +11,7 @@
     - if current_user.admin
       .admin-menu
         = link_to 'Edit', edit_blog_post_path(post)
-        =  link_to 'Delete', post, :confirm => 'Are you sure you want to delete this blog post and all of its comments?', :method => :delete
+        = link_to 'Delete', post, :confirm => 'Are you sure you want to delete this blog post and all of its comments?', :method => :delete
   .text
     - if short
       - if post.content.size > 500
@@ -26,19 +26,23 @@
   - if !short
     .comments
       %h4 Comments
+      - if !current_user.nil?
+        - if current_user.admin
+          = link_to 'Comment Admin', comment_path(@post.id)
       - @post.comments.each do |comment|
         .comment
-          - if comment.user
-            - if !comment.user.nickname.blank?
-              %b
-                =h "#{comment.user.nickname} said "
+          - if comment.approved
+            - if comment.user
+              - if !comment.user.nickname.blank?
+                %b
+                  =h "#{comment.user.nickname} said "
+              - else
+                %b
+                  =h "A TLP user said "
             - else
               %b
-                =h "A TLP user said "
-          - else
-            %b
-              =h "A Guest said "
-          =h "\"#{comment.content}\""
+                =h "A Guest said "
+            =h "\"#{comment.content}\""
       .comment-form
         - form_for @comment do |f|
           - fields_for @post do |p|
@@ -48,6 +52,6 @@
               = c.hidden_field :id
           %p
             = f.label 'Comment'
-            = f.text_area :content, {:style => "vertical-align: top;"}
+            = f.text_area :content, {:style => "vertical-align: middle;", :rows => "5"}
           %p
             = f.submit "Add comment"

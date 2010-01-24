@@ -4,6 +4,7 @@ class CreateComments < ActiveRecord::Migration
       t.integer :user_id
       t.integer :blog_post_id
       t.text    :content
+      t.boolean :approved
 
       t.timestamps
     end

@@ -1,8 +1,11 @@
 class BlogController < ApplicationController
   def index
-    @posts = BlogPost.find(:all, 
-                            :limit => 5, 
-                            :conditions => {:status => "200"},
-                            :order => "pub_date desc")
+    @posts = BlogPost.published_posts
+
+    if !current_user.nil?
+      if current_user.admin
+        @posts = BlogPost.all
+      end
+    end
   end
 end

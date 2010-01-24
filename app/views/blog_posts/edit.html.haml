@@ -16,9 +16,9 @@
         %p
           = f.label :Status
           &nbsp;&nbsp;&nbsp;&nbsp;
-          %select
-            %option Draft
-            %option Published
+          %select{:id => "blog_post_status", :name => "blog_post[status]"}
+            %option{:value => "100"} Draft
+            %option{:value => "200"} Published
         %p
           = f.submit "Save"
           %button{:value => "Cancel"}Cancel
