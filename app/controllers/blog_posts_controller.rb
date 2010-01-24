@@ -17,7 +17,13 @@ class BlogPostsController < ApplicationController
     @post = BlogPost.new(params[:blog_post])
   
     @post.user = current_user  
-    @post.pub_date = DateTime.now
+    
+    if params[:commit] == "Publish"
+      @post.pub_date = DateTime.now
+      @post.status = 200
+    else
+      @post.status = 100
+    end
     
     if @post.save
       flash[:success] = "Blog Post saved successfully"
@@ -30,7 +36,12 @@ class BlogPostsController < ApplicationController
   def update
     @post = BlogPost.find(params[:id])
   
-    @post.pub_date = DateTime.now
+    if params[:commit] == "Publish"
+      @post.pub_date = DateTime.now
+      @post.status = 200
+    else
+      @post.status = 100
+    end
     
     if @post.update_attributes(params[:blog_post])
       flash[:success] = "Blog Post saved successfully"

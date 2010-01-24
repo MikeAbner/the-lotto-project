@@ -14,11 +14,6 @@
           &nbsp;
           = f.text_area :content, {:style => "vertical-align: top;"}
         %p
-          = f.label :Status
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          %select{:id => "blog_post_status", :name => "blog_post[status]"}
-            %option{:value => "100"} Draft
-            %option{:value => "200"} Published
-        %p
-          = f.submit "Save"
+          = f.submit "Save Draft"
+          = f.submit "Publish"
           %button{:value => "Cancel"}Cancel

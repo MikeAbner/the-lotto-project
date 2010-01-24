@@ -5,7 +5,10 @@
         =h post.title
     .menu
       %h4
-        =h post.pub_date.to_formatted_s(:long)
+        - if post.pub_date.nil?
+          DRAFT
+        - else
+          =h post.pub_date.to_formatted_s(:long)
     %br.cb
   - if !current_user.nil?  
     - if current_user.admin
