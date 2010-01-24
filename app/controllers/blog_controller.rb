@@ -5,7 +5,7 @@ class BlogController < ApplicationController
 
     if !current_user.nil?
       if current_user.admin
-        @posts = BlogPost.all
+        @posts = BlogPost.find(:all, :order => "pub_date desc")
       end
     end
   end
