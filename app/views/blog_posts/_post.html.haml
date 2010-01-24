@@ -28,7 +28,7 @@
       %h4 Comments
       - if !current_user.nil?
         - if current_user.admin
-          = link_to 'Comment Admin', comment_path(@post.id)
+          = link_to "Comment Admin (#{@post.unapproved_comments} unapproved)", comment_path(@post.id)
       - @post.comments.each do |comment|
         .comment
           - if comment.approved

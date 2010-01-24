@@ -8,4 +8,12 @@ class BlogPost < ActiveRecord::Base
           :conditions => {:status => 200},
           :order => "pub_date desc")
   end
+  
+  def unapproved_comments
+    count = 0
+    comments.each do |c|
+      count += 1 if c.approved != true
+    end
+    count
+  end
 end
