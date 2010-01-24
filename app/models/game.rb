@@ -197,9 +197,9 @@ class Game < LookupTable
   add_value Game.new(48, "Little Lotto", [State::ILLINOIS], Generators::Generator.new(5, 1, 39), nil)
   add_value Game.new(49, "Pick 4", [State::ILLINOIS], Generators::Generator.new(4, 0, 9), nil)
   add_value Game.new(50, "Pick 3", [State::ILLINOIS], Generators::Generator.new(3, 0, 9), nil)
-  add_value Game.new(51, "Hoosier Lotto", [State::INDIANA], Generators::SuperGenerator.new(5, 1, 59, 1, 1, 39), nil)
+  add_value Game.new(51, "Hoosier Lotto", [State::INDIANA], Generators::Generator.new(6, 1, 48), nil)
   add_value Game.new(52, "Quick Draw", [State::INDIANA], Generators::Generator.new(10, 1, 80), nil)
-  add_value Game.new(53, "Lucky 5", [State::INDIANA], Generators::Generator.new(5, 1, 100), nil)  #what is the largest number????
+  add_value Game.new(53, "Lucky 5", [State::INDIANA], Generators::Generator.new(5, 1, 36), nil)
   add_value Game.new(54, "Daily 4", [State::INDIANA], Generators::Generator.new(4, 0, 9), nil)
   add_value Game.new(55, "Daily 3", [State::INDIANA], Generators::Generator.new(3, 0, 9), nil)
   add_value Game.new(56, "Mix And Match", [State::INDIANA], Generators::Generator.new(5, 1, 50), nil)
