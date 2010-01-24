@@ -333,6 +333,7 @@ html>body .main-container {
 }
 
 .comment-approval {
+	margin-top: 10px;
 	overflow: auto;
 }
 
