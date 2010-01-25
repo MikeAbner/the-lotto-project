@@ -19,9 +19,14 @@ class CommentsController < ApplicationController
     end
   
     if c.save
-      flash[:success] = "Your comment has been submitted for approval.  It will appear once it has been approved."
+      if current_user.nil? or (!current_user.nil? and !current_user.admin)
+        flash[:success] = "Your comment has been submitted for approval.  It will appear once it has been approved."
+      else
+        flash[:success] = "Your comment has been saved and automatically approved."
+      end
       redirect_to blog_post_path(params[:blog_post][:id])
     else
+      flash[:error] = "There was a problem saving your comment.  Please try again."
       redirect_to blog_post_path(params[:blog_post][:id])
     end
   end
