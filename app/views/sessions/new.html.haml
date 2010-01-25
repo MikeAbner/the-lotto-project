@@ -3,23 +3,25 @@
     .title
       %h3 Sign in
     .menu
+    %br.cb
   %br.cb
   .text
-    - if devise_mapping.authenticatable?
-      - form_for resource_name, resource, :url => session_path(resource_name) do |f|
-        %p
-          = f.label :email
-        %p
-          = f.text_field :email
-        %p 
-          = f.label :password
-        %p 
-          = f.password_field :password
-        %p
-          = f.check_box :remember_me
-          = f.label :remember_me
+    - form_for resource_name, resource, :url => session_path(resource_name) do |f|
+      %p
+        = f.label :email
+      %p
+        = f.text_field :email
+      %p 
+        = f.label :password
+      %p 
+        = f.password_field :password
+      %p
+        = f.check_box :remember_me
+        = f.label :remember_me
 
-        %p
-          = f.submit "Sign in"
-    
-    = render :partial => "shared/devise_links"
+      %p
+        = f.submit "Sign in"
+  
+  = render :partial => "shared/devise_links"
+  %br.cb
+  %br.cb
