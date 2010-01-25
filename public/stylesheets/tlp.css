@@ -203,6 +203,7 @@ html>body .main-container {
 }
 
 .intro {
+	margin-top: 10px;
 	overflow: auto;
 }
 
