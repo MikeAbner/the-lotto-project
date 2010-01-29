@@ -1,0 +1,51 @@
+.admin-games-list.widget.rounded-corners
+  .header
+    .title
+      %h4 Games
+    .menu
+      = link_to 'Add New Game', '/'
+    %br.cb
+  .text
+    - @games.each do |g|
+      .game-info
+        .names{:style => "float: left; width: 200px"}
+          %b Name:
+          = g.name
+          %br
+          %b Display Name:
+          = g.display_name
+          %br
+          %b State:
+          Arizona
+          %br
+          = link_to 'Website', g.url, {:target => "_blank"}
+          = link_to 'Edit', '/' 
+          = link_to 'Delete', '/'
+        .balls{:style => "margin-left: 20px; float: left; width: 160px;"}
+          %b Number of Balls:
+          = g.number_of_balls
+          %br
+          %b Range
+          = "#{g.lowest_number} to #{g.highest_number}"
+          %br
+          %b Number of Super Balls:
+          = g.number_of_super_balls
+          %br
+          %b Range:
+          = "#{g.lowest_super_number} to #{g.highest_super_number}"
+        .rules{:style => "float: left; margin-left: 20px; width:125px;"}
+          %b Sequenced?
+          = g.sequenced
+          %br
+          %b Duplicates 
+          = g.duplicates
+          %br
+          %b Duplicates (R)
+          = g.regular_duplicates
+          %br
+          %b Duplicates (S)
+          = g.super_duplicates
+        .notes
+          %b Notes:
+          = g.notes
+      %br.cb

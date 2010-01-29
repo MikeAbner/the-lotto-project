@@ -16,6 +16,10 @@ h3 {
 	clear: both;
 }
 
+.valign-top {
+	vertical-align: top;
+}
+
 .main-container {
 	width:expression(document.body.clientWidth < 960? "960px": "auto" );
 	margin-left: 0px;
@@ -177,6 +181,7 @@ html>body .main-container {
 	margin: auto;
 	padding: 10px;
 	border: 1px solid #aaaaaa;
+	overflow: auto;
 }
 
 .widget h4 {
@@ -198,6 +203,10 @@ html>body .main-container {
 	float: right;
 }
 
+.widget .text {
+	overflow: auto;
+}
+
 .intro-container {
 	overflow: auto;
 }
@@ -213,12 +222,12 @@ html>body .main-container {
 	margin-top: 0px;
 }
 
-.text {
+.intro .text {
 	width: 60%;
 	float: left;
 }
 
-.win.ie .text {
+.win.ie .intro .text {
 	width: 57%;
 }
 
@@ -357,4 +366,16 @@ html>body .main-container {
 
 .sign-in .text {
 	overflow: auto;
+}
+
+.admin {
+	margin-top: 10px;
+}
+
+.admin-games-list {
+	margin-top: 10px;
+}
+
+.admin-games-list .text .notes {
+	margin-left: 535px;
 }

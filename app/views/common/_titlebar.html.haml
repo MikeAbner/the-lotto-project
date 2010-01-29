@@ -20,10 +20,16 @@
         &nbsp;
         = link_to 'Blog', '/blog'
         &nbsp;
-      %td{:style => "border-right: 0px solid #aaaaaa;"}
+      %td{:style => "border-right: 1px solid #aaaaaa;"}
         &nbsp;
         = link_to 'About', '/about'
         &nbsp;
+      - if current_user && current_user.admin
+        %td{:style => "border-right: 0px solid #aaaaaa;"}
+          &nbsp;
+          = link_to 'Admin', '/admin'
+          &nbsp;
+
   %div.cb
 
   
