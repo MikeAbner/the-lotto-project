@@ -3,7 +3,7 @@
     .title
       %h4 Games
     .menu
-      = link_to 'Add New Game', '/'
+      = link_to 'Add New Game', '/admin_games/new'
     %br.cb
   .text
     - @games.each do |g|
@@ -19,8 +19,8 @@
           Arizona
           %br
           = link_to 'Website', g.url, {:target => "_blank"}
-          = link_to 'Edit', '/' 
-          = link_to 'Delete', '/'
+          = link_to 'Edit', "/admin_games/edit/#{g.id}" 
+          = link_to 'Delete', "/admin_games/destroy/#{g.id}", :confirm => "Are you sure?", :method => :delete
         .balls{:style => "margin-left: 20px; float: left; width: 160px;"}
           %b Number of Balls:
           = g.number_of_balls
@@ -49,3 +49,4 @@
           %b Notes:
           = g.notes
       %br.cb
+      %br

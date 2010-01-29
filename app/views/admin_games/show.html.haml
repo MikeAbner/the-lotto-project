@@ -1,0 +1,51 @@
+.admin-game-input.widget.rounded-corners
+  .header
+    .title
+      %h4 New game
+    .menu
+  %br.cb
+  .text
+    %p
+      %b Name
+      = @game.name
+    %p
+      %b Display Name
+      = @game.display_name
+    %p
+      %b Number of Balls
+      = @game.number_of_balls
+    %p
+      %b Range
+      = @game.lowest_number
+      &nbsp;to&nbsp;
+      = @game.highest_number
+    %p
+      %b Number of Super Balls
+      = @game.number_of_super_balls
+    %p
+      %b Range
+      = @game.lowest_super_number
+      &nbsp;to&nbsp;
+      = @game.highest_super_number
+    %p
+      %b Sequenced?
+      = @game.sequenced
+    %p
+      %b Duplicates?
+      = @game.duplicates
+    %p 
+      %b Regular Duplicates?
+      = @game.regular_duplicates
+    %p 
+      %b Super Duplicates?
+      = @game.super_duplicates
+    %p 
+      %b Url
+      = @game.url
+    %p
+      %b Notes
+      = @game.notes
+    %p
+      = link_to 'Index', '/admin_games'
+      = link_to 'Edit', "/admin_games/#{@game.id}"
+      = link_to 'New', '/admin_games/new'
