@@ -19,23 +19,39 @@ class AdminGamesController < ApplicationController
   def create
     @game = Game.new(params[:game])
     
+    if !params[:state][:id].blank?
+      @game.states << State.find(params[:state][:id].to_i)
+    end
+    
     if @game.save
       flash[:success] = "The game has been saved successfully!"
-      render :action => 'show'
+      if params[:commit] == 'Add State'
+        redirect_to "/admin_games/edit/#{@game.id}"
+      else
+        redirect_to "/admin_games/show/#{@game.id}"
+      end
     else
       flash[:error] = "The game could not be saved."
-      render :action => 'edit'
+      redirect_to "/admin_games/edit/#{@game.id}"
     end
   end
   def update
     @game = Game.find(params[:id])
     
+    if !params[:state][:id].blank?
+      @game.states << State.find(params[:state][:id].to_i)
+    end
+    
     if @game.update_attributes(params[:game])
       flash[:success] = "The game has been updated successfully!"
-      render :action => 'show'
+      if params[:commit] == 'Add State'
+        redirect_to "/admin_games/edit/#{@game.id}"
+      else
+        redirect_to "/admin_games/show/#{@game.id}"
+      end
     else
       flash[:error] = "The game could not be updated."
-      render :action => 'edit'
+      redirect_to "/admin_games/edit/#{@game.id}"
     end
   end
   def destroy

@@ -16,7 +16,9 @@
           = g.display_name
           %br
           %b State:
-          Arizona
+          - g.states.each do |s|
+            = s.name
+            %br
           %br
           = link_to 'Website', g.url, {:target => "_blank"}
           = link_to 'Edit', "/admin_games/edit/#{g.id}" 

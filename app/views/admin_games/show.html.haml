@@ -12,6 +12,11 @@
       %b Display Name
       = @game.display_name
     %p
+      %b States
+      - @game.states.each do |s|
+        = s.name
+        %br
+    %p
       %b Number of Balls
       = @game.number_of_balls
     %p
@@ -47,5 +52,5 @@
       = @game.notes
     %p
       = link_to 'Index', '/admin_games'
-      = link_to 'Edit', "/admin_games/#{@game.id}"
+      = link_to 'Edit', "/admin_games/edit/#{@game.id}"
       = link_to 'New', '/admin_games/new'

@@ -12,6 +12,15 @@ h3 {
 	margin-top: 0px;
 }
 
+th {
+	color: #384053;
+	font-weight: bold;
+}
+
+td {
+	color: #384053;
+}
+
 .cb {
 	clear: both;
 }
