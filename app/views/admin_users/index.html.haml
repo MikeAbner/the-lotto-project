@@ -1,0 +1,29 @@
+.admin-user-list.widget.rounded-corners
+  .header
+    .title
+      %h4 Users
+    .menu
+      = link_to 'Create New User', '/admin_users/new'
+    %br.cb
+  .text
+    %table
+      %tr
+        %th id
+        %th Email
+        %th Nickname
+        %th Admin
+        %th Actions
+      - @users.each do |u|
+        %tr
+          %td
+            = u.id
+          %td
+            = u.email
+          %td
+            = u.nickname
+          %td
+            = u.admin
+          %td
+            = link_to 'Edit', "/admin_users/edit/#{u.id}"
+            = link_to 'Delete', "/admin_users/destroy/#{u.id}", :confirm => "Are you sure?", :method => :delete
+            

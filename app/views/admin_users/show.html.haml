@@ -1,0 +1,20 @@
+.admin-user-input.widget.rounded-corners
+  .header
+    .title
+      %h4 User
+    .menu
+  %br.cb
+  .text
+    %p 
+      Email
+      = @user.email
+    %p 
+      Nickname
+      = @user.nickname
+    %p
+      Admin?
+      = @user.admin
+    %p
+      = link_to 'Index', '/admin_users'
+      = link_to 'Edit', "/admin_users/edit/#{@user.id}"
+      

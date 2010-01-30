@@ -1,0 +1,29 @@
+.admin-user-input.widget.rounded-corners
+  .header
+    .title
+      %h4 New User
+    .menu
+  %br.cb
+  .text
+    - action = "create"
+    - if @user.id
+      - action = "../update/#{@user.id}"
+    - form_for @user, :url => action do |f|
+      %p
+        = f.label :email
+        = f.text_field :email
+      %p
+        = f.label :password
+        = f.password_field :password
+      %p
+        = f.label :password_confirmation
+        = f.password_field :password_confirmation
+      %p
+        = f.label :nickname
+        = f.text_field :nickname
+      %p
+        = f.label "Admin?"
+        = f.check_box :admin
+      %p
+        = f.submit "Save User"
+        %button{:id => "cancel", :value => "Cancel"}Cancel

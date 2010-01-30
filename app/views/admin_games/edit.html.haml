@@ -32,17 +32,17 @@
         &nbsp;to&nbsp;
         = f.text_field :highest_super_number, {:style => "width: 25px;"}
       %p
-        = f.check_box :sequenced
         = f.label "Sequenced?"
+        = f.check_box :sequenced
       %p
-        = f.check_box :duplicates
         = f.label "Duplicates?"
-      %p 
-        = f.check_box :regular_duplicates
+        = f.check_box :duplicates
+      %p
         = f.label "Regular Duplicates?"
-      %p 
-        = f.check_box :super_duplicates
+        = f.check_box :regular_duplicates
+      %p
         = f.label "Super Duplicates?"
+        = f.check_box :super_duplicates
       %p 
         = f.label :url
         = f.text_field :url
