@@ -13,20 +13,21 @@ class Game < ActiveRecord::Base
     Rails.cache.write("Game/#{id}", self) if RAILS_ENV != 'development'
     Rails.cache.delete('Game.all')
     Rails.cache.delete('State.all')
+    State.invalidate_cache
   end
   
   def after_update
-    puts "cache before: #{Rails.cache.read("Game/1")}"
     Rails.cache.write("Game/#{id}", self) if RAILS_ENV != 'development'
-    puts "cache after: #{Rails.cache.read("Game/1")}"
     Rails.cache.delete('Game.all')
     Rails.cache.delete('State.all')
+    State.invalidate_cache
   end
   
   def after_destroy
     Rails.cache.delete("Game/#{id}") if RAILS_ENV != 'development'
     Rails.cache.delete('Game.all')
     Rails.cache.delete('State.all')
+    State.invalidate_cache
   end
   
   def self.fetch_all
@@ -42,6 +43,12 @@ class Game < ActiveRecord::Base
       Rails.cache.fetch("Game/#{id}") { find(id) }
     else
       find(id)
+    end
+  end
+  
+  def self.invalidate_cache
+    all.each do |g|
+      Rails.cache.delete("Game/#{g.id}")
     end
   end
   

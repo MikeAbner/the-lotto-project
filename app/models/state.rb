@@ -40,6 +40,12 @@ class State < ActiveRecord::Base
     end
   end
   
+  def self.invalidate_cache
+    all.each do |s|
+      Rails.cache.delete("State/#{s.id}")
+    end
+  end
+  
   def create_constant
     state_name = name.gsub(' ', '_').upcase
     unless State.constants.index(state_name)
