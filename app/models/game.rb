@@ -12,16 +12,19 @@ class Game < ActiveRecord::Base
   def after_save
     Rails.cache.write("Game/#{id}", self) if RAILS_ENV != 'development'
     Rails.cache.delete('Game.all')
+    Rails.cache.delete('State.all')
   end
   
   def after_update
     Rails.cache.write("Game/#{id}", self) if RAILS_ENV != 'development'
     Rails.cache.delete('Game.all')
+    Rails.cache.delete('State.all')
   end
   
   def after_destroy
     Rails.cache.delete("Game/#{id}") if RAILS_ENV != 'development'
     Rails.cache.delete('Game.all')
+    Rails.cache.delete('State.all')
   end
   
   def self.fetch_all
