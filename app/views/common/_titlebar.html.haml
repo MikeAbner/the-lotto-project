@@ -10,25 +10,26 @@
           = link_to 'Logout', destroy_user_session_path
         &nbsp;
 .top-bar-bottom
-  %table{:style => "padding-left: 30px;float:left;"}
-    %tr
-      %td{:style => "border-right: 1px solid #aaaaaa;"}
-        &nbsp;
-        = link_to 'Home', '/'
-        &nbsp;
-      %td{:style => "border-right: 1px solid #aaaaaa;"}
-        &nbsp;
-        = link_to 'Blog', '/blog'
-        &nbsp;
-      %td{:style => "border-right: 1px solid #aaaaaa;"}
-        &nbsp;
-        = link_to 'About', '/about'
-        &nbsp;
-      - if current_user && current_user.admin
-        %td{:style => "border-right: 0px solid #aaaaaa;"}
+  - if user_signed_in?
+    %table{:style => "padding-left: 30px;float:left;"}
+      %tr
+        %td{:style => "border-right: 1px solid #aaaaaa;"}
           &nbsp;
-          = link_to 'Admin', '/admin'
+          = link_to 'Home', '/'
           &nbsp;
+        %td{:style => "border-right: 1px solid #aaaaaa;"}
+          &nbsp;
+          = link_to 'Blog', '/blog'
+          &nbsp;
+        %td{:style => "border-right: 1px solid #aaaaaa;"}
+          &nbsp;
+          = link_to 'About', '/about'
+          &nbsp;
+        - if current_user && current_user.admin
+          %td{:style => "border-right: 0px solid #aaaaaa;"}
+            &nbsp;
+            = link_to 'Admin', '/admin'
+            &nbsp;
 
   %div.cb
 
