@@ -9,18 +9,35 @@
       .grid_16.content.rounded-corners
         = render :partial => "common/titlebar"
         - if flash[:success]
+          :javascript
+            $(document).ready(function() {
+              $(".success").fadeOut(3000);
+            })
           .message.success
             = flash[:success]
             - flash[:success] = nil
         - if flash[:notice]
+          :javascript
+            $(document).ready(function() {
+              $(".notice").fadeOut(3000);
+            })
           .message.notice
             = flash[:notice]
             - flash[:notice] = nil
         - if flash[:error]
+          :javascript
+            $(document).ready(function() {
+              $(".error").fadeOut(3000);
+            })
           .message.error
             = flash[:error]
             - flash[:error] = nil
         - if flash[:failure]
+          :javascript
+            $(document).ready(function() {
+              $(".error").fadeOut(3000);
+            })
           .message.error
             = flash[:failure]
+            - flash[:failure] = nil
         = yield

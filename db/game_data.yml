@@ -1,0 +1,658 @@
+Alabama:
+	id: 1
+	name: Alabama
+	abbr: AL
+Alaska:
+	id: 2
+	name: Alaska
+	abbr: AK
+Arizona:
+	id: 3
+	name: Arizona
+	abbr: AZ
+	Powerball:
+		name: Powerball
+		display_name: Powerball
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 59
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/
+		notes: 
+	2by2:
+		name: Two by Two 
+		display_name: 2by2
+		number_of_balls: 2
+		lowest_number: 1
+		highest_number: 26
+		number_of_super_balls: 2
+		lowest_super_number: 1
+		highest_super_number: 26
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.arizonalottery.com/Games/2by2.html?GameID=11
+		notes: There are two "red" numbers and two "white"; for simplicity I input the Red in the RN columns and the White in the SN columns
+	Ca$h_4:
+		name: Cash 4
+		display_name: Ca$h 4
+		number_of_balls: 4
+		lowest_number: 1
+		highest_number: 26
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.arizonalottery.com/Games/CA$H4.html?GameID=9
+		notes: 
+	The_Pick:
+		name: The Pick
+		display_name: The Pick
+		number_of_balls: 6
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.arizonalottery.com/ThePick.html?GameID=3
+		notes: 
+	Pick_5:
+		name: Pick 5
+		display_name: Pick 5
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.arizonalottery.com/Pick5.html?GameID=6
+		notes: 
+	Pick_3:
+		name: Pick 3
+		display_name: Pick 3
+		number_of_balls: 1
+		lowest_number: 0
+		highest_number: 999
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.arizonalottery.com/Pick3.html?GameID=2
+		notes: Typical pick 3 rules with Straights, Boxes, Straight/Box, Front Pair, Back Pair
+Arkansas:
+	id: 4
+	name: Arkansas
+	abbr: AR
+California:
+	id: 5
+	name: California
+	abbr: CA
+	MegaMillions:
+		name: MegaMillions
+		display_name: MegaMillions
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 56
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 46
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.megamillions.com/
+		notes: 
+	SuperLotto_Plus:
+		name: SuperLotto Plus
+		display_name: SuperLotto Plus
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 47
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 27
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.calottery.com/games/superlottoplus/
+		notes: 
+	Fantasy_5:
+		name: Fantasy 5
+		display_name: Fantasy 5
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.calottery.com/Games/FantasyFive/
+		notes: 
+	Daily_4:
+		name: Daily 4
+		display_name: Daily 4
+		number_of_balls: 4
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.calottery.com/Games/DailyFour/
+		notes: Straight, Box or Straight/Box
+	Daily_3:
+		name: Daily 3
+		display_name: Daily 3
+		number_of_balls: 3
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.calottery.com/Games/DailyThree/
+		notes: Straight, Box or Straight/Box
+Colorado:
+	id: 6
+	name: Colorado
+	abbr: CO
+	Powerball:
+		name: Powerball
+		display_name: Powerball
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 59
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/
+		notes: 
+	Lotto:
+		name: Lotto
+		display_name: Lotto
+		number_of_balls: 6
+		lowest_number: 1
+		highest_number: 42
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.coloradolottery.com/index.cfm/ID/6/Lotto/
+		notes: 
+	Cash_5:
+		name: Cash 5
+		display_name: Cash 5
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 32
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.coloradolottery.com/index.cfm/ID/7/Cash-5/
+		notes: 
+Connecticut:
+	id: 7
+	name: Connecticut
+	abbr: CT
+	Powerball:
+		name: Powerball
+		display_name: Powerball
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 59
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/
+		notes: 
+	Classic_Lotto:
+		name: Classic Lotto
+		display_name: Classic Lotto
+		number_of_balls: 6
+		lowest_number: 1
+		highest_number: 44
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.ctlottery.org/lotto.htm
+		notes: 
+	Cash5:
+		name: Cash 5
+		display_name: Cash5
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 35
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: false
+		duplicates: false
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.ctlottery.org/cash5.htm
+		notes: 
+	Lucky-4-Life:
+		name: Lucky Four Life
+		display_name: Lucky-4-Life
+		number_of_balls: 4
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.ctlottery.org/lucky4life.htm
+		notes: 
+	Play4:
+		name: Play 4
+		display_name: Play4
+		number_of_balls: 4
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.ctlottery.org/play4.htm
+		notes: 
+	Play3:
+		name: Play 3
+		display_name: Play3
+		number_of_balls: 3
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.ctlottery.org/play3.htm
+		notes: 
+Delaware:
+	id: 8
+	name: Delaware
+	abbr: DE
+	Powerball:
+		name: Powerball
+		display_name: Powerball
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 59
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/
+		notes: 
+	Hot_Lotto:
+		name: Hot Lotto
+		display_name: Hot Lotto
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 19
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/hotlotto/hl_main.asp
+		notes: 
+	Play_4:
+		name: Play 4
+		display_name: Play 4
+		number_of_balls: 4
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://lottery.state.de.us/games/play3play4/index.asp
+		notes: 
+	Play_3:
+		name: Play 3
+		display_name: Play 3
+		number_of_balls: 3
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://lottery.state.de.us/games/play3play4/index.asp
+		notes: 
+Florida:
+	id: 9
+	name: Florida
+	abbr: FL
+Georgia:
+	id: 10
+	name: Georgia
+	abbr: GA
+Hawaii:
+	id: 11
+	name: Hawaii
+	abbr: HI
+Idaho:
+	id: 12
+	name: Idaho
+	abbr: ID
+Illinois:
+	id: 13
+	name: Illinois
+	abbr: IL
+Indiana:
+	id: 14
+	name: Indiana
+	abbr: IN
+Iowa:
+	id: 15
+	name: Iowa
+	abbr: IA
+Kansas:
+	id: 16
+	name: Kansas
+	abbr: KS
+Kentucky:
+	id: 17
+	name: Kentucky
+	abbr: KY
+Louisiana:
+	id: 18
+	name: Louisiana
+	abbr: LA
+Maine:
+	id: 19
+	name: Maine
+	abbr: ME
+Maryland:
+	id: 20
+	name: Maryland
+	abbr: MD
+Massachusetts:
+	id: 21
+	name: Massachusetts
+	abbr: MA
+Michigan:
+	id: 22
+	name: Michigan
+	abbr: MI
+Minnesota:
+	id: 23
+	name: Minnesota
+	abbr: MN
+Mississippi:
+	id: 24
+	name: Mississippi
+	abbr: MS
+Missouri:
+	id: 25
+	name: Missouri
+	abbr: MO
+Montana:
+	id: 26
+	name: Montana
+	abbr: MT
+Nebraska:
+	id: 27
+	name: Nebraska
+	abbr: NE
+Nevada:
+	id: 28
+	name: Nevada
+	abbr: NV
+New_Hampshire:
+	id: 29
+	name: New Hampshire
+	abbr: NH
+New_Jersey:
+	id: 30
+	name: New Jersey
+	abbr: NJ
+New_Mexico:
+	id: 31
+	name: New Mexico
+	abbr: NM
+New_York:
+	id: 32
+	name: New York
+	abbr: NY
+North_Carolina:
+	id: 33
+	name: North Carolina
+	abbr: NC
+North_Dakota:
+	id: 34
+	name: North Dakota
+	abbr: ND
+Ohio:
+	id: 35
+	name: Ohio
+	abbr: OH
+Oklahoma:
+	id: 36
+	name: Oklahoma
+	abbr: OK
+Oregon:
+	id: 37
+	name: Oregon
+	abbr: OR
+Pennsylvania:
+	id: 38
+	name: Pennsylvania
+	abbr: PA
+Rhode_Island:
+	id: 39
+	name: Rhode Island
+	abbr: RH
+South_Carolina:
+	id: 40
+	name: South Carolina
+	abbr: SC
+South_Dakota:
+	id: 41
+	name: South Dakota
+	abbr: SD
+Tennessee:
+	id: 42
+	name: Tennessee
+	abbr: TN
+Texas:
+	id: 43
+	name: Texas
+	abbr: TX
+Utah:
+	id: 44
+	name: Utah
+	abbr: UT
+Vermont:
+	id: 45
+	name: Vermont
+	abbr: VT
+Virginia:
+	id: 46
+	name: Virginia
+	abbr: VA
+Washington:
+	id: 47
+	name: Washington
+	abbr: WA
+West_Virginia:
+	id: 48
+	name: West Virginia
+	abbr: WV
+Wisconsin:
+	id: 49
+	name: Wisconsin
+	abbr: WI
+Wyoming:
+	id: 50
+	name: Wyoming
+	abbr: WY
+District_of_Columbia:
+	id: 51
+	name: District of Columbia
+	abbr: DC
+	Powerball:
+		name: Powerball
+		display_name: Powerball
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 59
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 39
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/
+		notes: 
+	MegaMillions:
+		name: MegaMillions
+		display_name: MegaMillions
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 56
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 46
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.megamillions.com/
+		notes: 
+	Hot_Lotto:
+		name: Hot Lotto
+		display_name: Hot Lotto
+		number_of_balls: 5
+		lowest_number: 1
+		highest_number: 39
+		number_of_super_balls: 1
+		lowest_super_number: 1
+		highest_super_number: 19
+		sequenced: false
+		duplicates: true
+		regular_duplicates: false
+		super_duplicates: false
+		url: http://www.powerball.com/hotlotto/hl_main.asp
+		notes: 
+	DC_Lucky_Numbers:
+		name: DC Lucky Numbers
+		display_name: DC Lucky Numbers
+		number_of_balls: 3
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.dclottery.com/games/luckynumbers/default.aspx
+		notes: 
+	DC_4:
+		name: DC 4
+		display_name: DC 4
+		number_of_balls: 4
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.dclottery.com/Games/DC4/default.aspx
+		notes: 
+	DC_5:
+		name: DC 5
+		display_name: DC 5
+		number_of_balls: 5
+		lowest_number: 0
+		highest_number: 9
+		number_of_super_balls: 0
+		lowest_super_number: 0
+		highest_super_number: 0
+		sequenced: true
+		duplicates: true
+		regular_duplicates: true
+		super_duplicates: false
+		url: http://www.dclottery.com/Games/DC5/default.aspx
+		notes: 
+US_Virgin_Islands:
+	id: 52
+	name: US Virgin Islands
+	abbr: VI
