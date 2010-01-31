@@ -16,9 +16,9 @@ class Game < ActiveRecord::Base
   end
   
   def after_update
-    puts "cache before: #{Rails.cache.read("Game/1").notes}"
+    puts "cache before: #{Rails.cache.read("Game/1")}"
     Rails.cache.write("Game/#{id}", self) if RAILS_ENV != 'development'
-    puts "cache after: #{Rails.cache.read("Game/1").notes}"
+    puts "cache after: #{Rails.cache.read("Game/1")}"
     Rails.cache.delete('Game.all')
     Rails.cache.delete('State.all')
   end
