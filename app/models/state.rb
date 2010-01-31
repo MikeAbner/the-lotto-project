@@ -2,19 +2,23 @@ class State < ActiveRecord::Base
   has_and_belongs_to_many :games
   
   def after_initialize
+    return if !self.id
     create_constant
   end
   
   def after_save
     Rails.cache.write("State/#{id}", self) if RAILS_ENV != 'development'
+    Rails.cache.delete('State.all')
   end
   
   def after_update
     Rails.cache.write("State/#{id}", self) if RAILS_ENV != 'development'
+    Rails.cache.delete('State.all')
   end
   
   def after_destroy
     Rails.cache.delete("State/#{id}") if RAILS_ENV != 'development'
+    Rails.cache.delete('State.all')
   end
   
   def self.fetch_all
