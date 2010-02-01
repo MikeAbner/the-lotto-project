@@ -4,7 +4,7 @@
       = yield(:title) || "The Lotto Project"
     
     = "<meta name='description' content = 'The Lotto Project'/>"
-    = "<meta name='keywords' content='lotto project, lotto, lottery, lottery numbers, lotto numbers, lottery software, lottery number generator, lottery group, lottery analysis, winning numbers, mega millions, megamillions, powerball'/>"
+    = "<meta name='keywords' content='lotto project, lotto, lottery, lottery numbers, lotto numbers, lottery software, lottery number generator, lottery statistics, lottery group, lottery analysis, winning numbers, mega millions, powerball'/>"
             
     = stylesheet_link_tag :all
     = javascript_include_tag :all
@@ -45,3 +45,4 @@
             = flash[:failure]
             - flash[:failure] = nil
         = yield
+    = render :partial => "common/google_analytics"
