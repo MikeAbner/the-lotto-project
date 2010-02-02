@@ -62,7 +62,6 @@ html>body .main-container {
 .side-ad-container {
 	background-color: white;
 	margin: auto;
-	margin-top: 10px;
 	margin-left: 6px;
 	padding: 10px;
 	width: 600px;
@@ -93,7 +92,6 @@ html>body .main-container {
 
 .content {
 	background-color: #EDEDED;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 6px;
 	overflow: auto;
@@ -162,7 +160,7 @@ html>body .main-container {
 }
 
 .main-content {
-	margin-top: 10px;
+	
 }
 
 .message {
@@ -234,7 +232,6 @@ html>body .main-container {
 }
 
 .intro {
-	margin-top: 10px;
 	overflow: auto;
 }
 
@@ -286,7 +283,7 @@ html>body .main-container {
 }
 
 .features {
-	margin-top: 10px;
+
 }
 
 .features h2 {
@@ -309,7 +306,6 @@ html>body .main-container {
 }
 
 .blog {
-	margin-top: 10px;
 	width: 60%;
 	overflow: auto;
 }
@@ -328,7 +324,6 @@ html>body .main-container {
 }
 
 .blog-post {
-	margin-top: 10px;
 	width: 60%;
 	overflow: auto;
 }
@@ -356,7 +351,6 @@ html>body .main-container {
 }
 
 .blog-comments {
-	margin-top: 10px;
 	overflow: auto;
 }
 
@@ -365,7 +359,6 @@ html>body .main-container {
 }
 
 .comment-approval {
-	margin-top: 10px;
 	overflow: auto;
 }
 
@@ -374,7 +367,6 @@ html>body .main-container {
 }
 
 .sign-in {
-	margin-top: 10px;
 	overflow: auto;
 }
 
@@ -391,11 +383,11 @@ html>body .main-container {
 }
 
 .admin {
-	margin-top: 10px;
+
 }
 
 .admin-games-list {
-	margin-top: 10px;
+
 }
 
 .admin-games-list .text .notes {
