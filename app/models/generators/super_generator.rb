@@ -14,7 +14,10 @@ class Generators::SuperGenerator
     @number_of_super_balls = snum
     @min_super_number = smin
     @max_super_number = smax
-    @sorted = options[:sorted] ||= false
+    @sequenced = options[:sequenced]
+    @duplicates = options[:duplicates]
+    @regular_duplicates = options[:regular_duplicates]
+    @super_duplicates = options[:super_duplicates]
   end
   
   def generate_random_numbers
@@ -22,16 +25,26 @@ class Generators::SuperGenerator
     snumbers = []
     (1..@number_of_balls).each do |i|
       num = @min_number + rand(@max_number)
-      redo if numbers.include?(num)      
+      if !@regular_duplicates
+        #regenerate the number if you can't have duplicates among the regular numbers
+        redo if numbers.include?(num)
+      end
       numbers << num
     end
-    numbers.sort!
+    numbers.sort! if !@sequenced
     (1..@number_of_super_balls).each do |i|
       num = @min_super_number + rand(@max_super_number)
-      redo if snumbers.include?(num)      
+      if !@super_duplicates
+        #regenerate the number if you can't have duplicates among the super numbers
+        redo if snumbers.include?(num)
+      end
+      if !@duplicates
+        #regenerate the number if you can't have duplicates between the regular and super numbers
+        redo if numbers.include?(num)
+      end
       snumbers << num
     end
-    snumbers.sort!
+    snumbers.sort! if !@sequenced
     
     {:numbers => numbers, :super_numbers => snumbers}
   end
