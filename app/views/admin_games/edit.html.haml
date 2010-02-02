@@ -17,7 +17,7 @@
         = f.text_field :display_name
       %p
         = f.label :state
-        = collection_select(:state, :id, State.find(:all), :id, :name, {:include_blank => true})
+        = collection_select(:state, :id, State.fetch_all, :id, :name, {:include_blank => true})
         = f.submit 'Add State'
         %br
         - @game.states.each do |s|
