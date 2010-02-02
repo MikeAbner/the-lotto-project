@@ -3,7 +3,15 @@
     .title
       %h4 Games
     .menu
-      = link_to 'Add New Game', '/admin_games/new'
+      .form
+        - form_tag '/admin_games/index', :method => :get do 
+          Sort:
+          = collection_select(:state, :id, State.fetch_all, :id, :name, {:include_blank => true})
+          = submit_tag 'Go'
+      .buttons
+        &nbsp;&nbsp;
+        = link_to 'Add New Game', '/admin_games/new'
+        &nbsp;&nbsp;
     %br.cb
   .text
     - @games.each do |g|

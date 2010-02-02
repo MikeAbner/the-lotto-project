@@ -12,6 +12,10 @@ h3 {
 	margin-top: 0px;
 }
 
+form {
+	margin: 0px;
+}
+
 th {
 	color: #384053;
 	font-weight: bold;
@@ -210,6 +214,14 @@ html>body .main-container {
 }
 
 .widget .menu {
+	float: right;
+	overflow: hidden;
+}
+
+.menu .form {
+	float: left;
+}
+.menu .buttons {
 	float: right;
 }
 

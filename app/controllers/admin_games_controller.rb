@@ -4,7 +4,15 @@ class AdminGamesController < ApplicationController
     if !current_user || !current_user.admin
      redirect_to '/'
     end
-    @games = Game.all
+    if params[:state].blank?
+      @games = Game.all
+    else
+      if params[:state][:id].blank?
+        @games = Game.all
+      else
+        @games = State.fetch(params[:state][:id].to_i).games
+      end
+    end
   end
   def show
     @game = Game.find(params[:id])
