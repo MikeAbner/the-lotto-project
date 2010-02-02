@@ -45,4 +45,5 @@
             = flash[:failure]
             - flash[:failure] = nil
         = yield
-    = render :partial => "common/google_analytics"
+    - if RAILS_ENV != 'development'
+      = render :partial => "common/google_analytics"
