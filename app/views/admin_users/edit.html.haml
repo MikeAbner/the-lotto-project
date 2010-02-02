@@ -19,9 +19,8 @@
     - if @user.id
       - action = "../update/#{@user.id}"
     - form_for @user, :url => action do |f|
-      %p
-        = f.label :email
-        = f.text_field :email
+      = f.label :email
+      = f.text_field :email
       %p
         = f.label :password
         = f.password_field :password

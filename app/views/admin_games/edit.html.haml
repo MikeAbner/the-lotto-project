@@ -19,9 +19,8 @@
     - if @game.id
       - action = "../update/#{@game.id}"
     - form_for @game, :url => action do |f|
-      %p
-        = f.label :name
-        = f.text_field :name
+      = f.label :name
+      = f.text_field :name
       %p
         = f.label :display_name
         = f.text_field :display_name
@@ -51,15 +50,15 @@
         = f.text_field :highest_super_number, {:style => "width: 25px;"}
       %p
         = f.label "Sequenced?"
-        = f.check_box :sequenced
+        = f.check_box :sequenced, {:checked => false}
       %p
-        = f.label "Duplicates?"
+        = f.label "Duplicates allowed in regular and super balls?"
         = f.check_box :duplicates
       %p
-        = f.label "Regular Duplicates?"
+        = f.label "Duplicates allowed in regular balls?"
         = f.check_box :regular_duplicates
       %p
-        = f.label "Super Duplicates?"
+        = f.label "Duplicates allowed in regular balls?"
         = f.check_box :super_duplicates
       %p 
         = f.label :url
