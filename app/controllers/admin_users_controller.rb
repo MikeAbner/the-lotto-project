@@ -4,7 +4,19 @@ class AdminUsersController < ApplicationController
     if !current_user || !current_user.admin
      redirect_to '/'
     end
-    @users = User.all
+    @letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+    
+    if params[:email].blank? and params[:nickname].blank?
+      @users = User.all
+    else
+      if !params[:nickname].blank? and !params[:nickname][:letter].blank?
+        @users = User.find(:all, :conditions => "nickname like '#{@letters[params[:nickname][:letter].to_i]}%'")
+      elsif !params[:email].blank? and !params[:email][:letter].blank?
+        @users = User.find(:all, :conditions => "email like '#{@letters[params[:email][:letter].to_i]}%'")
+      else
+        @users = User.all
+      end
+    end
   end
   def show
     @user = User.find(params[:id])
