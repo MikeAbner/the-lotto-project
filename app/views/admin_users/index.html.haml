@@ -3,7 +3,27 @@
     .title
       %h4 Users
     .menu
-      = link_to 'Create New User', '/admin_users/new'
+      .form
+        - form_tag '/admin_users/index', :method => :get do 
+          Sort:
+          %select{:name => "email[letter]", :id => "email_letter"}
+            %option{:value => ""} Email starts with...
+            - (0..25).each do |i|
+              = "<option value='#{i}'>#{@letters[i]}</option>"
+          = submit_tag 'Go'
+          &nbsp;&nbsp
+      .form
+        - form_tag '/admin_users/index', :method => :get do 
+          Sort:
+          %select{:name => "nickname[letter]", :id => "nickname_letter"}
+            %option{:value => ""} Nickname starts with...
+            - (0..25).each do |i|
+              = "<option value='#{i}'>#{@letters[i]}</option>"
+          = submit_tag 'Go'
+          &nbsp;&nbsp;
+      .buttons
+        = link_to 'Create New User', '/admin_users/new'
+        &nbsp;&nbsp;
     %br.cb
   .text
     %table

@@ -1,3 +1,13 @@
+:javascript
+  $(document).ready(function(){
+    $("#cancel_btn").click(function(){
+      r = confirm('Are you sure you want to cancel adding this game?');
+      if (r) {
+        window.location = '/admin_users';
+      }
+    });
+  })
+
 .admin-user-input.widget.rounded-corners
   .header
     .title
@@ -26,4 +36,4 @@
         = f.check_box :admin
       %p
         = f.submit "Save User"
-        %button{:id => "cancel", :value => "Cancel"}Cancel
+        %button{:id => "cancel_btn", :value => "Cancel", :type => "button"}Cancel

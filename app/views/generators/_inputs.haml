@@ -27,7 +27,7 @@
   .label
     %b State:
   .list
-    = collection_select(:state, :state_id, State.all, :id, :name, {:include_blank => true})
+    = collection_select(:state, :state_id, State.fetch_all, :id, :name, {:include_blank => true})
 %p
   .label
     %b Game:

@@ -1,3 +1,13 @@
+:javascript
+  $(document).ready(function(){
+    $("#cancel_btn").click(function(){
+      r = confirm('Are you sure you want to cancel adding this game?');
+      if (r) {
+        window.location = '/admin_games';
+      }
+    });
+  })
+  
 .admin-game-input.widget.rounded-corners
   .header
     .title
@@ -17,7 +27,7 @@
         = f.text_field :display_name
       %p
         = f.label :state
-        = collection_select(:state, :id, State.find(:all), :id, :name, {:include_blank => true})
+        = collection_select(:state, :id, State.fetch_all, :id, :name, {:include_blank => true})
         = f.submit 'Add State'
         %br
         - @game.states.each do |s|
@@ -59,4 +69,4 @@
         = f.text_area :notes, {:class => "valign-top"}
       %p
         = f.submit 'Save Game'
-        %button{:id => "cancel", :value => "Cancel"}Cancel
+        %button{:id => "cancel_btn", :value => "Cancel", :type => "button"}Cancel

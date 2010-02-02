@@ -26,10 +26,11 @@ class State < ActiveRecord::Base
   
   def self.fetch_all
     if RAILS_ENV != 'development'
-      Rails.cache.fetch('State.all') { all }
+      r = Rails.cache.fetch('State.all') { all }
     else
-      all
+      r = all
     end
+    r.sort { |x,y| x.name <=> y.name }
   end
   
   def self.fetch(id)
