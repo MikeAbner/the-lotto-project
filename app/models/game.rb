@@ -68,7 +68,7 @@ class Game < ActiveRecord::Base
     else
       state = ""
     end
-    constant_name = "#{name.gsub(' ', '_').upcase}#{state}"
+    constant_name = "#{name.gsub(' ', '_').gsub('-', '_').upcase}#{state}"
     unless Game.constants.index(constant_name)
       Game.const_set constant_name, self
     end
