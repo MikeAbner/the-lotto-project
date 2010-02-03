@@ -9,3 +9,7 @@ CADailyThree:
 VAPickFour:
   game_id: 3
   state_id: 2
+  
+VAMegaMillion:
+  game_id: 1
+  state_id: 1
