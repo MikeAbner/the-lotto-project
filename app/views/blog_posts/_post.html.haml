@@ -8,7 +8,7 @@
         - if post.pub_date.nil?
           DRAFT
         - else
-          =h post.pub_date.to_formatted_s(:long)
+          =h post.pub_date.to_s(:blog_post_date)
     %br.cb
   - if !current_user.nil?  
     - if current_user.admin
@@ -44,6 +44,7 @@
               %b
                 =h "A Guest said "
             =h "\"#{comment.content}\""
+            = " on #{comment.created_at.to_s(:blog_comment_date)}"
       .comment-form
         - form_for @comment do |f|
           - fields_for @post do |p|
