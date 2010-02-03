@@ -5,7 +5,10 @@ class Generators::SuperGenerator
               :number_of_super_balls, 
               :min_super_number, 
               :max_super_number,
-              :sorted
+              :sequenced,
+              :duplicates,
+              :regular_duplicates,
+              :super_duplicates
   
   def initialize(num, min, max, snum, smin, smax, options = {})
     @number_of_balls = num

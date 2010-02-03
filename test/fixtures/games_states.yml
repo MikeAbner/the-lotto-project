@@ -1,0 +1,11 @@
+CAMegaMillion:
+  game_id: 1
+  state_id: 1
+  
+CADailyThree:
+  game_id: 2
+  state_id: 1
+  
+VAPickFour:
+  game_id: 3
+  state_id: 2

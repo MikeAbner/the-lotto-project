@@ -2,7 +2,8 @@ class Generators::Generator
   attr_reader :number_of_balls, 
               :min_number, 
               :max_number, 
-              :sorted
+              :sequenced,
+              :regular_duplicates
   
   def initialize(num, min, max, options = {})
     @min_number = min
