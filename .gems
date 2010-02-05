@@ -1,4 +1,5 @@
 haml --version '2.2.2'
 warden --version '0.9.0'
 devise --version '0.9.0'
+rdiscount --version 'rdiscount-1.5.8'
 toto --version 'toto-0.2.7'
