@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+      <title>
+        <%= title %>
+      </title>
+      <link href="/stylesheets/960_grid_fluid.css?1265163601" media="screen" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/tlp.css" media="screen" rel="stylesheet" type="text/css" />
+      <script src="/javascripts/css_browser_selector.js?1265163601" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class='container_16 main-container'>
+          <div class='grid_16 content rounded-corners'>
+            <div class='top-bar-top'>
+              <div class='logo'>
+                <img alt="The Lotto Project Mascot" src="/images/cute-monster.png" style="width: 100px;" />
+                <img alt="The Lotto Project" src="/images/logo-long.png" />
+              </div>
+            </div>
+            <div class='top-bar-bottom'>
+              <table style='padding-left: 30px;float:left;'>
+                <tr>
+                  <td style='border-right: 1px solid #aaaaaa;'>
+                    &nbsp;
+                    <a href="http://www.the-lotto-project.com/">Home</a>
+                    &nbsp;
+                  </td>
+                  <td style='border-right: 1px solid #aaaaaa;'>
+                    &nbsp;
+                    <a href="/blog">Blog</a>
+                    &nbsp;
+                  </td>
+                  <td style='border-right: 1px solid #aaaaaa;'>
+                    &nbsp;
+                    <a href="http://www.the-lotto-project.com/about">About</a>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+              <div class='cb'></div>
+            </div>
+            <div class='blog widget rounded-corners'>
+              <%= yield %>
+            </div>
+<script type='text/javascript'>
+  //<![CDATA[
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  //]]>
+
+</script>
+<script type='text/javascript'>
+  //<![CDATA[
+    try {
+      var pageTracker = _gat._getTracker("UA-12764725-1");
+      pageTracker._setDomainName("none");
+      pageTracker._setAllowLinker(true);
+      pageTracker._trackPageview();
+    } catch(err) {}
+  //]]>
+</script>
+
+</body>
+</html>
+
+
