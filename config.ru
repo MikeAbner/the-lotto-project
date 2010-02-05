@@ -1,7 +1,7 @@
 require 'toto'
 require 'config/environment.rb'
 
-use Rack::Static, :urls => ['/css', '/javascripts', '/images', '/favicon.ico'], :root => 'public'
+use Rack::Static, :urls => ['/stylesheets', '/javascripts', '/images', '/favicon.ico'], :root => 'public'
 use Rack::ShowExceptions
 use Rack::CommonLogger
 
@@ -14,6 +14,8 @@ toto = Toto::Server.new do
   set :title, "The Lotto Project Blog"
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :summary,   :max => 500
+  set :root, "blog"
+  set :url, ""http://the-lotto-project.com/blog/"
 end
 
 
