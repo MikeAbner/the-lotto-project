@@ -17,7 +17,11 @@ toto = Toto::Server.new do
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :summary,   :max => 500
   set :root, "blog"
-  set :url, "http://the-lotto-project.com/blog/"
+  if RAILS_ENV != 'production'
+    set :url, "http://localhost:9292/blog/"
+  else
+    set :url, "http://the-lotto-project.com/blog/"
+  end
 end
 
 
