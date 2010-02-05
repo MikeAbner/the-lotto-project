@@ -7,10 +7,12 @@ use Rack::CommonLogger
 
 # Run application
 toto = Toto::Server.new do
-  #
-  # Add your settings here
-  # set [:setting], [value]
-  #
+  Toto::Paths = {
+    :templates => "blog/templates",
+    :pages => "blog/templates/pages",
+    :articles => "blog/articles"
+  }
+
   set :title, "The Lotto Project Blog"
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :summary,   :max => 500
