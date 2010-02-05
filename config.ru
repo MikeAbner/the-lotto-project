@@ -22,6 +22,7 @@ toto = Toto::Server.new do
   else
     set :url, "http://the-lotto-project.com/blog/"
   end
+  set :disqus, "thelottoprojectblog"
 end
 
 

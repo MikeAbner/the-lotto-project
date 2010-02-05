@@ -7,6 +7,12 @@ div {
 	font-size: 11pt;
 }
 
+h1 {
+	color: #ba2b00;
+	margin-bottom: 0px;
+	font-size: 16pt;
+}
+
 h3 {
 	color: #BA2B00;
 	margin-top: 0px;
@@ -196,6 +202,20 @@ html>body .main-container {
 	overflow: auto;
 }
 
+.widget a:link {
+	text-decoration: none;
+	color: #ba2b00;
+}
+
+.widget a:visited {
+	text-decoration: none;
+	color: #ba2b00;
+}
+
+.widget a:hover {
+	text-decoration: underline;
+}
+
 .widget h4 {
 	color: #BA2B00;
 	margin-bottom: 0px;
@@ -310,6 +330,11 @@ html>body .main-container {
 	overflow: auto;
 }
 
+.blog .menu {
+	color: #ba2b00;
+	padding-top: 20px;
+}
+
 .blog .post {
 	overflow: auto;
 }
@@ -321,49 +346,6 @@ html>body .main-container {
 .blog .text {
 	background-color: white;
 	width: 98%;
-}
-
-.blog-post {
-	width: 60%;
-	overflow: auto;
-}
-
-.blog-post .post {
-	overflow: auto;
-}
-
-.blog-post .text {
-	background-color: white;
-	width: 98%;
-}
-
-.blog-post .comment {
-	margin-bottom: 10px;
-}
-
-.blog-post .comments h4 {
-	border-bottom: 1px dashed #BA2B00;
-	margin-bottom: 5px;
-}
-
-.blog-post .comment-form textarea {
-	
-}
-
-.blog-comments {
-	overflow: auto;
-}
-
-.blog-comments .text {
-	overflow: auto;
-}
-
-.comment-approval {
-	overflow: auto;
-}
-
-.comment-approval .text {
-	overflow: auto;
 }
 
 .sign-in {
