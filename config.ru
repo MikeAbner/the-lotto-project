@@ -1,7 +1,7 @@
 require 'toto'
 require 'config/environment.rb'
 
-
+use Rack::Static, :urls => ['/css', '/javascripts', '/images', '/favicon.ico'], :root => 'public'
 use Rack::ShowExceptions
 use Rack::CommonLogger
 
