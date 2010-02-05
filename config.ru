@@ -1,4 +1,6 @@
 require 'toto'
+require 'config/environment.rb'
+
 
 use Rack::ShowExceptions
 use Rack::CommonLogger
