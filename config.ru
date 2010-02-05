@@ -1,3 +1,20 @@
+require 'toto'
+
+use Rack::ShowExceptions
+use Rack::CommonLogger
+
+# Run application
+toto = Toto::Server.new do
+  #
+  # Add your settings here
+  # set [:setting], [value]
+  #
+  set :title, "The Lotto Project Blog"
+  set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+  set :summary,   :max => 500
+end
+
+
 app = Rack::Builder.new do
 	use Rack::CommonLogger
 	
